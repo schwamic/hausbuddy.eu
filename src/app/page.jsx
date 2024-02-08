@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Home() {
+export default function Index() {
   return (
     <div className="flex items-center">
       <h1 className="text-5xl font-extrabold w-160">Community für aktive Hausbewohner:innen</h1>
