@@ -9,7 +9,7 @@ export default function DiscordCard({ className, data }) {
         rel="noopener noreferrer"
         target="_blank"
         href="https://www.google.de"
-        className="inline text-nowrap underline cursor-pointer"
+        className="inline text-nowrap underline cursor-pointer font-medium"
       >
         {data.link.text}
       </a>

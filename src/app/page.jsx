@@ -12,7 +12,15 @@ import discord from "@/content/discord";
 export default function Index() {
   return (
     <>
-      <section className="mb-12">Logo</section>
+      <section className="mb-12">
+        <Image
+          src="/images/hausbuddy-blue-yellow.svg"
+          alt="hausbuddy"
+          width={180}
+          height={98}
+          priority
+        />
+      </section>
 
       {/* INTRO */}
       <section className="flex justify-between">
