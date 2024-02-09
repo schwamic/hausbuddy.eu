@@ -1,9 +1,9 @@
 import { Sora } from "next/font/google";
 import "@/globals.css";
 
-const sora = Sora({ 
+const sora = Sora({
   subsets: ["latin"],
-  variable: '--font-sora',
+  variable: "--font-sora",
 });
 
 export const metadata = {
@@ -11,12 +11,12 @@ export const metadata = {
   description: "Community für aktive Hausbewohner:innen",
 };
 
-export default function RootLayout({
-  children,
-}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="de">
-      <body id="hausbuddy" className={`${sora.variable} font-sans`}>{children}</body>
+      <body id="hausbuddy" className={`${sora.variable} font-sans`}>
+        <div className="max-w-5xl mx-auto py-16">{children}</div>
+      </body>
     </html>
   );
 }

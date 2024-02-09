@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --main-color-hex: #295DA6;
-  --secondary-colol-hex: #FFC936;
-  --background-hex: #FFFFFF;
+  --main-color-hex: #295da6;
+  --secondary-colol-hex: #ffc936;
+  --background-hex: #ffffff;
 }
 
 body {

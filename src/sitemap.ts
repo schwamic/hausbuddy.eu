@@ -1,30 +1,30 @@
-import { MetadataRoute } from 'next'
- 
-export default function sitemap() {
+import { MetadataRoute } from "next";
+
+export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://haudbuddy.eu',
+      url: "https://haudbuddy.eu",
       lastModified: new Date(),
-      changeFrequency: 'monthly',
+      changeFrequency: "monthly",
       priority: 1,
     },
     {
-      url: 'https://haudbuddy.eu/wiki',
+      url: "https://haudbuddy.eu/wiki",
       lastModified: new Date(),
-      changeFrequency: 'monthly',
+      changeFrequency: "monthly",
       priority: 0.8,
     },
     {
-      url: 'https://haudbuddy.eu/datenschutz',
+      url: "https://haudbuddy.eu/datenschutz",
       lastModified: new Date(),
-      changeFrequency: 'yearly',
+      changeFrequency: "yearly",
       priority: 0.5,
     },
     {
-      url: 'https://haudbuddy.eu/impressum',
+      url: "https://haudbuddy.eu/impressum",
       lastModified: new Date(),
-      changeFrequency: 'yearly',
+      changeFrequency: "yearly",
       priority: 0.5,
     },
-  ]
+  ];
 }
