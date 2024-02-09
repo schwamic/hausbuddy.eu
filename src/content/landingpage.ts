@@ -2,7 +2,7 @@ export default {
   intro: {
     title: "Community für aktive Hausbewohner:innen",
     image: {
-      src: "3d-boy-thumb-up.png",
+      src: "3d-girl-thumb-up.png",
       alt: "buddy with thumb up",
     },
     actions: {
