@@ -6,6 +6,7 @@ export default function Footer({ className }) {
     <div className={`flex justify-between items-baseline ${className}`}>
       <div>
         <Image
+          className="-mb-1.5"
           src="/images/hausbuddy-blue-yellow.svg"
           alt="hausbuddy"
           width={80}
