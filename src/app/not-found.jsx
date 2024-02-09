@@ -1,10 +1,14 @@
-import { Link } from "next/link";
+import Footer from "@/app/components/Footer";
 
 export default function NotFound() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div>404 Page</div>
-      <Link href="/">Zur Startseite</Link>
-    </div>
+    <>
+      <section>
+        <h1>404 Page</h1>
+      </section>
+      <section>
+        <Footer />
+      </section>
+    </>
   );
 }
