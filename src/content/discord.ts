@@ -6,6 +6,6 @@ export default {
   },
   link: {
     text: "Discord Server",
-    href: "todo",
+    href: "https://discord.com",
   },
 };

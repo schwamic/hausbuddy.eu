@@ -8,7 +8,7 @@ export default function DiscordCard({ className, data }) {
       <a
         rel="noopener noreferrer"
         target="_blank"
-        href="https://www.google.de"
+        href={data.link.href}
         className="inline text-nowrap underline cursor-pointer font-medium"
       >
         {data.link.text}
