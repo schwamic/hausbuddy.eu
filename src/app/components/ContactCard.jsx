@@ -17,7 +17,7 @@ export default function ContactCard({ className, data }) {
       <div className="w-1/2 mb-4">
         <p className="pb-4">{data.text}</p>
         <a
-          className="font-extrabold text-2xl underline"
+          className="font-bold text-2xl underline"
           href={`mailto:${data.email.href}`}
         >
           {data.email.text}
