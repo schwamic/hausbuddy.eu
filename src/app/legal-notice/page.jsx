@@ -79,6 +79,7 @@ export default function LegalNotice() {
           </a>
         </section>
       </div>
+
       <section id="action" className="mb-20 sm:mb-28">
         <ContactCard className="w-full" data={contact} />
         <div className="md:flex md:items-stretch">
