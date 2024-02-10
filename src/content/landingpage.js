@@ -13,7 +13,7 @@ export default {
     },
     action: {
       text: "Buddy werden",
-      href: "#action",
+      href: "#contact",
     },
   },
   infos: {

@@ -27,7 +27,7 @@ export default function NotFound() {
           />
           <WikiCard
             className="w-full md:w-1/2 md:ml-4 mt-6 sm:mt-8"
-            data={wiki}
+            data={wiki.card}
           />
         </div>
       </section>

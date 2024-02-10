@@ -71,7 +71,7 @@ export default function Index() {
         </div>
       </section>
 
-      <section id="action" className="mb-20 sm:mb-28">
+      <section id="contact" className="mb-20 sm:mb-28">
         <ContactCard className="w-full" data={contact} />
         <div className="md:flex md:items-stretch">
           <DiscordCard
@@ -80,7 +80,7 @@ export default function Index() {
           />
           <WikiCard
             className="w-full md:w-1/2 md:ml-4 mt-6 sm:mt-8"
-            data={wiki}
+            data={wiki.card}
           />
         </div>
       </section>
