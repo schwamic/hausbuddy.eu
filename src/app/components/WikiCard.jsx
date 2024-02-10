@@ -7,7 +7,7 @@ export default function WikiCard({ className, data }) {
       <p className="inline">{data.text.first + " "}</p>
       <Link
         href="/wiki"
-        className="inline underline font-medium cursor-pointer"
+        className="inline underline font-semibold cursor-pointer"
       >
         {data.text.second}
       </Link>

@@ -9,7 +9,7 @@ export default function DiscordCard({ className, data }) {
         rel="noopener noreferrer"
         target="_blank"
         href={data.link.href}
-        className="inline text-nowrap underline cursor-pointer font-medium"
+        className="inline text-nowrap underline cursor-pointer font-semibold"
       >
         {data.link.text}
       </a>
@@ -17,6 +17,7 @@ export default function DiscordCard({ className, data }) {
       <ExternalLink
         className="inline-block ml-1 mb-1"
         color="white"
+        strokeWidth={2.5}
         size={16}
       />
     </ActionCard>
