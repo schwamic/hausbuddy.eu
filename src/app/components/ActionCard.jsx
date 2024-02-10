@@ -14,7 +14,7 @@ export default function ActionCard({ className, children, image }) {
           priority
         />
       </div>
-      <div className="text-white font-normal ">{children}</div>
+      <div className="text-white font-medium ">{children}</div>
     </Card>
   );
 }

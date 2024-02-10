@@ -4,6 +4,8 @@ import { ExternalLink } from "lucide-react";
 import Footer from "@/app/components/Footer";
 import ContactCard from "@/app/components/ContactCard";
 import WikiCard from "@/app/components/WikiCard";
+import Jumbotron from "@/app/components/Jumbotron";
+import Logo from "@/app/components/Logo";
 import DiscordCard from "@/app/components/DiscordCard";
 import content from "@/content/landingpage";
 import contact from "@/content/contact";
@@ -12,45 +14,16 @@ import discord from "@/content/discord";
 export default function Index() {
   return (
     <>
-      <section className="mb-12">
-        <Image
-          src="/images/hausbuddy-blue-yellow.svg"
-          alt="hausbuddy"
-          width={180}
-          height={98}
-          priority
-        />
+      <section className="mb-20">
+        <Logo width={180} height={98} />
       </section>
 
-      {/* INTRO */}
-      <section className="flex justify-between">
-        <div className="w-7/12 mt-24">
-          <h1 className="text-5xl tracking-wide font-extrabold w-160 leading-tight">
-            {content.intro.title}
-          </h1>
-          <div className="mt-10">
-            <a
-              href="#action"
-              className="text-lg bg-yellow-400 shadow-lg shadow-gray-400  py-4 px-6 rounded-2xl cursor-pointer"
-            >
-              {content.intro.actions.create.text}
-            </a>
-          </div>
-        </div>
-        <div className="w-5/12">
-          <Image
-            className="float-right"
-            src={`/images/${content.intro.image.src}`}
-            alt={content.intro.image.alt}
-            width={365}
-            height={335}
-            priority
-          />
-        </div>
+      <section className="mb-28">
+        <Jumbotron data={content.headline} />
       </section>
 
       {/* INFOS */}
-      <section className="mt-28">
+      <section className="mb-28">
         <div className="flex justify-center w-full">
           <h2 className="font-extrabold text-3xl">{content.infos.title}</h2>
         </div>
@@ -80,10 +53,10 @@ export default function Index() {
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://www.ihk.de/schwaben/produktmarken/beratung-und-service/recht-und-steuern/gewerbe-und-handwerksrecht/hausmeisterdienste-554052"
+              href={content.infos.tasks.link.href}
               className="inline text-nowrap underline cursor-pointer"
             >
-              {content.infos.tasks.link}
+              {content.infos.tasks.link.text}
             </a>
             <p className="inline">.</p>
             <ExternalLink
@@ -96,7 +69,7 @@ export default function Index() {
         </div>
       </section>
 
-      <section id="action" className="mt-28">
+      <section id="action" className="mb-28">
         <ContactCard className="w-full" data={contact} />
         <div className="flex items-stretch mt-8">
           <DiscordCard className="w-1/2 mr-4" data={discord} />
@@ -104,7 +77,7 @@ export default function Index() {
         </div>
       </section>
 
-      <section className="mt-28">
+      <section>
         <Footer />
       </section>
     </>

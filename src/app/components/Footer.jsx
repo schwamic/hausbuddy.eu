@@ -1,18 +1,11 @@
 import Link from "next/link";
-import Image from "next/image";
+import Logo from "@/app/components/Logo";
 
 export default function Footer({ className }) {
   return (
     <div className={`flex justify-between items-baseline ${className}`}>
       <div>
-        <Image
-          className="-mb-1.5"
-          src="/images/hausbuddy-blue-yellow.svg"
-          alt="hausbuddy"
-          width={80}
-          height={44}
-          priority
-        />
+        <Logo className="-mb-1.5" width={80} height={44} />
       </div>
       <div className="flex justify-end space-x-10">
         <Link href="/">Startseite</Link>

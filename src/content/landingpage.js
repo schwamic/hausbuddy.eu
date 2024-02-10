@@ -1,9 +1,15 @@
 export default {
-  intro: {
-    title: "Community für aktive Hausbewohner:innen",
+  headline: {
+    title: <>Community für aktive Haus&shy;bewohner:innen</>,
     image: {
-      src: "3d-girl-thumb-up.png",
-      alt: "buddy with thumb up",
+      big: {
+        src: "3d-girl-thumb-up.png",
+        alt: "buddy with thumb up",
+      },
+      small: {
+        src: "3d-girl-head.png",
+        alt: "buddy who winks",
+      },
     },
     actions: {
       create: {
@@ -28,7 +34,10 @@ export default {
     tasks: {
       title: "Welche Tätigkeiten sind erlaubt?",
       text: "Die Aufgaben im Hausmeisterdienst bestehen im Wesentlichen darin für Sauberkeit, Sicherheit und Funktionsfähigkeit von Einrichtungen und Anlagen zu sorgen. Eine genaue Liste an erlaubten Tätigkeiten ohne spezielle Ausbildung findest du z.B. bei der IHK Schwaben:",
-      link: "Hausmeisterdienste",
+      link: {
+        text: "Hausmeisterdienste",
+        href: "https://www.ihk.de/schwaben/produktmarken/beratung-und-service/recht-und-steuern/gewerbe-und-handwerksrecht/hausmeisterdienste-554052",
+      },
     },
   },
   wiki: {
