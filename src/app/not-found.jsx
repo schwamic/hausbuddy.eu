@@ -12,11 +12,16 @@ import discord from "@/content/discord";
 export default function NotFound() {
   return (
     <>
-      <section className="mb-16 sm:mb-20 lg:mb-28">
+      <section className="mb-16">
         <Logo width={180} height={98} />
       </section>
       <section className="mb-24 sm:mb-28">
-        <Jumbotron data={content} buttonStyle="blue" />
+        <Jumbotron
+          data={content}
+          buttonStyle="blue"
+          classBigImage="transform scale-75 lg:scale-90 -translate-y-5 lg:-translate-y-8"
+          classSmallImage="transform scale-100 sm:scale-115 sm:-translate-y-12"
+        />
       </section>
       <section id="action" className="mb-20 sm:mb-28">
         <ContactCard className="w-full" data={contact} />
@@ -32,7 +37,7 @@ export default function NotFound() {
         </div>
       </section>
       <section>
-        <Footer className="bg-blue-500" />
+        <Footer />
       </section>
     </>
   );

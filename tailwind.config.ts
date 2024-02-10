@@ -7,6 +7,9 @@ const config: Config = {
       fontFamily: {
         sans: ["var(--font-sora)"],
       },
+      scale: {
+        "115": "1.15",
+      },
     },
   },
   plugins: [],

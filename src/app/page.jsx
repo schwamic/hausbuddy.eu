@@ -14,12 +14,16 @@ import wiki from "@/content/wiki";
 export default function Index() {
   return (
     <>
-      <section className="mb-16 sm:mb-20 lg:mb-28">
+      <section className="mb-16">
         <Logo width={180} height={98} />
       </section>
 
       <section className="mb-24 sm:mb-28">
-        <Jumbotron data={content.headline} />
+        <Jumbotron
+          data={content.headline}
+          classBigImage="transform scale-95 lg:scale-105 -translate-y-5 lg:-translate-y-8"
+          classSmallImage="transform scale-100 translate-x-6 sm:translate-x-0 sm:-translate-y-12"
+        />
       </section>
 
       {/* INFOS */}

@@ -1,5 +1,5 @@
 export default {
-  title: "Wiki mit allen wichtigen Informationen",
+  title: "Wiki mit allen nötigen Infos zum Durchstarten",
   image: {
     big: {
       src: "3d-girl-sitting.png",

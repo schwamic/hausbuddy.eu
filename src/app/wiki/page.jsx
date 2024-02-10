@@ -11,11 +11,16 @@ import discord from "@/content/discord";
 export default function Wiki() {
   return (
     <>
-      <section className="mb-16 sm:mb-20 lg:mb-28">
+      <section className="mb-16">
         <Logo width={180} height={98} />
       </section>
       <section className="mb-24 sm:mb-28">
-        <Jumbotron data={content} buttonStyle="blue" />
+        <Jumbotron
+          data={content}
+          buttonStyle="blue"
+          classBigImage="transform scale-90 lg:scale-100 -translate-y-4 lg:-translate-y-6"
+          classSmallImage="transform scale-115 translate-x-3 sm:translate-x-0 sm:-translate-y-12"
+        />
       </section>
       {/* WIKI */}
       <section className="mb-20 md:mb-28">
@@ -37,7 +42,7 @@ export default function Wiki() {
         </div>
       </section>
       <section>
-        <Footer className="bg-blue-500" />
+        <Footer />
       </section>
     </>
   );

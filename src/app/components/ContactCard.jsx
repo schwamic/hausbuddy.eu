@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Card from "@/app/components/Card";
 
-export default function ContactCard({ className, data }) {
+export default function ContactCard({ className = "", data }) {
   return (
     <Card className={`bg-yellow-400 ${className}`}>
       <div className="hidden w-32 min-w-32 md:w-44 md:min-w-44 sm:mr-4 md:mr-10 sm:block">

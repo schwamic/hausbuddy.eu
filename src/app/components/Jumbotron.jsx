@@ -2,17 +2,18 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Jumbotron({
-  className,
   data,
-  imageSize = { width: 400, height: 400 },
+  className = "",
+  classBigImage = "",
+  classSmallImage = "",
   buttonStyle = "yellow",
   showButton = true,
 }) {
   return (
     <div
-      className={`flex items-center flex-col-reverse sm:flex-row sm:justify-between ${className}`}
+      className={`flex items-center flex-col-reverse sm:flex-row ${className}`}
     >
-      <div className="flex items-center flex-col sm:items-start max-w-96 sm:max-w-full">
+      <div className="flex items-center sm:items-start flex-col w-full max-w-96 sm:max-w-full">
         <h1 className="text-center sm:text-start text-3xl sm:text-4xl lg:text-5xl tracking-wide leading-tight font-extrabold">
           {data.title}
         </h1>
@@ -31,21 +32,19 @@ export default function Jumbotron({
           </div>
         )}
       </div>
-      <div className="md:w-6/12 sm:ml-4 sm:float-right">
+      <div className="relative w-44 min-w-44 h-44 md:w-96 md:min-w-96 md:h-80 sm:ml-4 mb-6 sm:mb-0">
         <Image
-          className="hidden md:block w-96 min-w-96 transform md:scale-90 lg:scale-100 -mt-16 lg:-mt-26"
+          className={`hidden md:block object-contain ${classBigImage}`}
           src={`/images/${data.image.big.src}`}
           alt={data.image.big.alt}
-          width={imageSize.width}
-          height={imageSize.height}
+          fill={true}
           priority
         />
         <Image
-          className="md:hidden w-44 min-w-44 mb-6 sm:mb-0 sm:-mt-24"
+          className={`block md:hidden object-contain ${classSmallImage}`}
           src={`/images/${data.image.small.src}`}
           alt={data.image.small.alt}
-          width={imageSize.width}
-          height={imageSize.height}
+          fill={true}
           priority
         />
       </div>
