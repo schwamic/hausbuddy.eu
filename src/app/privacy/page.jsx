@@ -71,8 +71,8 @@ export default function Privacy() {
           </h2>
           <p className="mb-2">{content.list[5].description[0]}</p>
           <ul className="mb-2 list-inside list-disc">
-            {content.list[5].description[1].map((item) => (
-              <li>{item}</li>
+            {content.list[5].description[1].map((item, key) => (
+              <li key={key}>{item}</li>
             ))}
           </ul>
           <p>{content.list[5].description[2]}</p>
