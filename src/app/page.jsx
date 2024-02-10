@@ -22,17 +22,17 @@ export default function Index() {
       </section>
 
       {/* INFOS */}
-      <section className="mb-20 sm:mb-28">
-        <div className="flex sm:justify-center w-full mb-8 sm:mb-16">
-          <h2 className="font-extrabold text-2xl sm:text-3xl">
+      <section className="mb-20 md:mb-28">
+        <div className="flex md:justify-center w-full mb-8 md:mb-16">
+          <h2 className="font-extrabold text-2xl md:text-3xl">
             {content.infos.title}
           </h2>
         </div>
         <div className="flex flex-wrap leading-relaxed">
-          <div className="order-1 w-100 sm:w-6/12 sm:pr-6">
+          <div className="order-1 w-100 md:w-6/12 md:pr-6">
             <p>{content.infos.intro}</p>
           </div>
-          <div className="order-3 w-100 sm:w-6/12 mt-8 sm:pr-6">
+          <div className="order-3 w-100 md:w-6/12 mt-8 md:pr-6">
             <h3 className="font-extrabold mb-1.5">{content.infos.why.title}</h3>
             <p className="inline">{content.infos.why.text + " "}</p>
             <Link href="/wiki" className="underline inline">
@@ -40,13 +40,13 @@ export default function Index() {
             </Link>
             <p className="inline">.</p>
           </div>
-          <div className="order-2 w-100 sm:w-6/12 mt-8 sm:mt-0 sm:pl-6">
+          <div className="order-2 w-100 md:w-6/12 mt-8 md:mt-0 md:pl-6">
             <h3 className="font-extrabold mb-1.5">
               {content.infos.what.title}
             </h3>
             <p>{content.infos.what.text}</p>
           </div>
-          <div className="order-4 w-100 sm:w-6/12 mt-8 sm:pl-6">
+          <div className="order-4 w-100 md:w-6/12 mt-8 md:pl-6">
             <h3 className="font-extrabold mb-1.5">
               {content.infos.tasks.title}
             </h3>
