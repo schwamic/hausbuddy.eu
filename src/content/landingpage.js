@@ -11,11 +11,9 @@ export default {
         alt: "buddy who winks",
       },
     },
-    actions: {
-      create: {
-        text: "Buddy werden",
-        meta: "Buddy werden",
-      },
+    action: {
+      text: "Buddy werden",
+      href: "#action",
     },
   },
   infos: {
@@ -38,17 +36,6 @@ export default {
         text: "Hausmeisterdienste",
         href: "https://www.ihk.de/schwaben/produktmarken/beratung-und-service/recht-und-steuern/gewerbe-und-handwerksrecht/hausmeisterdienste-554052",
       },
-    },
-  },
-  wiki: {
-    text: {
-      first: "Offene Fragen? Schaue doch mal bei unserem",
-      second: " Wiki",
-      third: " vorbei.",
-    },
-    image: {
-      src: "handbook-white.png",
-      alt: "handbook",
     },
   },
 };

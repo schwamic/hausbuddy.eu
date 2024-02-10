@@ -6,7 +6,7 @@ export default function WikiCard({ className, data }) {
     <ActionCard image={data.image} className={className}>
       <p className="inline">{data.text.first + " "}</p>
       <Link
-        href="/wiki"
+        href={data.href}
         className="inline underline font-semibold cursor-pointer"
       >
         {data.text.second}

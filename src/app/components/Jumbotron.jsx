@@ -13,20 +13,20 @@ export default function Jumbotron({
       className={`flex items-center flex-col-reverse sm:flex-row sm:justify-between ${className}`}
     >
       <div className="flex items-center flex-col sm:items-start max-w-96 sm:max-w-full">
-        <h1 className="sm:text-start text-3xl sm:text-4xl lg:text-5xl tracking-wide leading-tight font-extrabold">
+        <h1 className="text-center sm:text-start text-3xl sm:text-4xl lg:text-5xl tracking-wide leading-tight font-extrabold">
           {data.title}
         </h1>
         {showButton && (
           <div className="mt-12">
             <Link
-              href="#action"
+              href={data.action.href}
               className={`shadow-lg shadow-gray-400 rounded-2xl py-4 px-6 cursor-pointer text-lg ${
                 buttonStyle === "yellow"
                   ? "bg-yellow-400 text-blue-900"
                   : "bg-blue-900 text-white font-medium"
               }`}
             >
-              {data.actions.create.text}
+              {data.action.text}
             </Link>
           </div>
         )}

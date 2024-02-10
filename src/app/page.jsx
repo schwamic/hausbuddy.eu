@@ -9,6 +9,7 @@ import DiscordCard from "@/app/components/DiscordCard";
 import content from "@/content/landingpage";
 import contact from "@/content/contact";
 import discord from "@/content/discord";
+import wiki from "@/content/wiki";
 
 export default function Index() {
   return (
@@ -79,7 +80,7 @@ export default function Index() {
           />
           <WikiCard
             className="w-full md:w-1/2 md:ml-4 mt-6 sm:mt-8"
-            data={content.wiki}
+            data={wiki}
           />
         </div>
       </section>
