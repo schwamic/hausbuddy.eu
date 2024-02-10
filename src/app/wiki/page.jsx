@@ -17,6 +17,12 @@ export default function Wiki() {
       <section className="mb-24 sm:mb-28">
         <Jumbotron data={content} buttonStyle="blue" />
       </section>
+      {/* WIKI */}
+      <section className="mb-20 md:mb-28">
+        <p className="text-xl text-center">
+          Diese Seite ist aktuell im Aufbau.
+        </p>
+      </section>
       <section className="mb-20 sm:mb-28">
         <ContactCard className="w-full" data={contact} />
         <div id="community" className="md:flex md:items-stretch">
