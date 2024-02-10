@@ -23,7 +23,7 @@ export default function Index() {
 
       {/* INFOS */}
       <section className="mb-20 md:mb-28">
-        <div className="flex md:justify-center w-full mb-8 md:mb-16">
+        <div className="flex sm:justify-center w-full mb-8 md:mb-16">
           <h2 className="font-extrabold text-2xl md:text-3xl">
             {content.infos.title}
           </h2>
