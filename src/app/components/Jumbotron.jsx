@@ -33,7 +33,7 @@ export default function Jumbotron({
       </div>
       <div className="md:w-6/12 sm:ml-4 sm:float-right">
         <Image
-          className="hidden md:block w-96 min-w-96 transform md:scale-90 lg:scale-100 -mt-16 lg:-mt-24"
+          className="hidden md:block w-96 min-w-96 transform md:scale-90 lg:scale-100 -mt-16 lg:-mt-26"
           src={`/images/${data.image.big.src}`}
           alt={data.image.big.alt}
           width={imageSize.width}
@@ -41,7 +41,7 @@ export default function Jumbotron({
           priority
         />
         <Image
-          className="md:hidden w-44 min-w-44  mb-6 sm:mb-0 sm:-mt-24"
+          className="md:hidden w-44 min-w-44 mb-6 sm:mb-0 sm:-mt-24"
           src={`/images/${data.image.small.src}`}
           alt={data.image.small.alt}
           width={imageSize.width}
