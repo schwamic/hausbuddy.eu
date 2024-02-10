@@ -14,7 +14,7 @@ import discord from "@/content/discord";
 export default function Index() {
   return (
     <>
-      <section className="mb-20">
+      <section className="mb-20 lg:mb-28">
         <Logo width={180} height={98} />
       </section>
 
