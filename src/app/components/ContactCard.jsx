@@ -4,7 +4,7 @@ import Card from "@/app/components/Card";
 export default function ContactCard({ className, data }) {
   return (
     <Card className={`bg-yellow-400 ${className}`}>
-      <div className="w-44 mr-10">
+      <div className="hidden sm:w-44 sm:mr-10 sm:block">
         <Image
           className="transform -scale-x-100 float-right"
           src={`/images/${data.image.src}`}
@@ -14,7 +14,7 @@ export default function ContactCard({ className, data }) {
           priority
         />
       </div>
-      <div className="w-1/2 mb-4">
+      <div className="w-full sm:w-1/2 sm:mb-4">
         <p className="pb-4">{data.text}</p>
         <a
           className="font-bold text-2xl underline"

@@ -11,7 +11,7 @@ export default function Jumbotron({
   return (
     <div className={`flex justify-between ${className}`}>
       <div className="w-full">
-        <h1 className="text-3xl sm:text-4xl lg:text-5xl tracking-wide leading-tight font-extrabold hyphens-auto">
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl tracking-wide leading-tight font-extrabold">
           {data.title}
         </h1>
         {showButton && (
@@ -39,7 +39,7 @@ export default function Jumbotron({
           priority
         />
         <Image
-          className="md:hidden transform w-40 min-w-40 sm:w-44 sm:min-w-44"
+          className="hidden sm:block md:hidden transform w-40 min-w-40 sm:w-44 sm:min-w-44"
           src={`/images/${data.image.small.src}`}
           alt={data.image.small.alt}
           width={imageSize.width}

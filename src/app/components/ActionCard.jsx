@@ -3,8 +3,8 @@ import Card from "@/app/components/Card";
 
 export default function ActionCard({ className, children, image }) {
   return (
-    <Card className={`bg-blue-900 px-14 ${className}`}>
-      <div className="mr-5">
+    <Card className={`bg-blue-900 sm:px-14 ${className}`}>
+      <div className="hidden sm:block sm:mr-5">
         <Image
           className="transform -scale-x-100 float-right"
           src={`/images/${image.src}`}

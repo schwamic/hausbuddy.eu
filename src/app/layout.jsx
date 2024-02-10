@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="de">
       <body id="hausbuddy" className={`${sora.variable} font-sans`}>
-        <div className="w-full lg:max-w-6xl lg:mx-auto px-4 sm:px-16 py-5 sm:py-16 font-semibold tracking-normal">
+        <div className="w-full lg:max-w-6xl lg:mx-auto px-4 sm:px-16 py-5 sm:py-16 font-semibold tracking-normal hyphens-auto">
           {children}
         </div>
       </body>
