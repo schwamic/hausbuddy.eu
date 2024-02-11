@@ -1,11 +1,11 @@
 export default {
-  text: "Bereits Mitglied? Dann gehts hier zur",
+  text: "Bock auf Austausch? Hier gehts zur",
   image: {
     src: "slack-mark-white.png",
     alt: "slack mark",
   },
   link: {
-    text: "hausbuddy Community",
+    text: "Community bei Slack",
     href: "https://hausbuddy.slack.com",
   },
 };
