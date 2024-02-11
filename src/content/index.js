@@ -1,5 +1,5 @@
 export { default as contact } from "./contact";
-export { default as discord } from "./discord";
+export { default as community } from "./community";
 export { default as home } from "./home";
 export { default as legalNotice } from "./legal-notice";
 export { default as notFound } from "./not-found";

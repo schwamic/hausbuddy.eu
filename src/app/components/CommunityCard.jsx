@@ -2,7 +2,7 @@ import { ExternalLinkIcon } from "lucide-react";
 import ActionCard from "@/app/components/ActionCard";
 import ExternalLink from "@/app/components/ExternalLink";
 
-export default function DiscordCard({ className = "", data }) {
+export default function CommunityCard({ className = "", data }) {
   return (
     <ActionCard image={data.image} className={className}>
       <p className="inline">{data.text + " "}</p>

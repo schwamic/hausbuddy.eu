@@ -3,10 +3,12 @@ import Card from "@/app/components/Card";
 
 export default function ActionCard({ className = "", children, image }) {
   return (
-    <Card className={`bg-blue-900 sm:px-14 sm:p-7 ${className}`}>
+    <Card
+      className={`bg-blue-900 sm:px-14 md:px-10 lg:px-14 sm:p-7 ${className}`}
+    >
       <div className="hidden sm:block sm:mr-5">
         <Image
-          className="w-12 min-w-12 float-right"
+          className="w-10 min-w-10 float-right"
           src={`/images/${image.src}`}
           alt={image.alt}
           width={64}

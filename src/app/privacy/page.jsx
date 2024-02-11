@@ -3,10 +3,10 @@ import {
   Logo,
   ContactCard,
   WikiCard,
-  DiscordCard,
+  CommunityCard,
   ExternalLink,
 } from "@/app/components";
-import { privacy, contact, wiki, discord } from "@/content";
+import { privacy, contact, wiki, community } from "@/content";
 
 export default function Privacy() {
   return (
@@ -93,9 +93,9 @@ export default function Privacy() {
       <section id="action" className="mb-20 sm:mb-28">
         <ContactCard className="w-full" data={contact} />
         <div className="md:flex md:items-stretch">
-          <DiscordCard
+          <CommunityCard
             className="w-full md:w-1/2 md:mr-4 mt-6 sm:mt-8"
-            data={discord}
+            data={community}
           />
           <WikiCard
             className="w-full md:w-1/2 md:ml-4 mt-6 sm:mt-8"

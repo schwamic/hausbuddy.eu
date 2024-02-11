@@ -4,9 +4,9 @@ import {
   Jumbotron,
   ContactCard,
   WikiCard,
-  DiscordCard,
+  CommunityCard,
 } from "@/app/components";
-import { contact, wiki, discord } from "@/content";
+import { contact, wiki, community } from "@/content";
 
 export default function Wiki() {
   return (
@@ -31,9 +31,9 @@ export default function Wiki() {
       <section className="mb-20 sm:mb-28">
         <ContactCard className="w-full" data={contact} />
         <div id="community" className="md:flex md:items-stretch">
-          <DiscordCard
+          <CommunityCard
             className="w-full md:w-1/2 md:mr-4 mt-6 sm:mt-8"
-            data={discord}
+            data={community}
           />
           <WikiCard
             className="w-full md:w-1/2 md:ml-4 mt-6 sm:mt-8"

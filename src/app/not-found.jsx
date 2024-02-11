@@ -4,9 +4,9 @@ import {
   Jumbotron,
   ContactCard,
   WikiCard,
-  DiscordCard,
+  CommunityCard,
 } from "@/app/components";
-import { contact, notFound, wiki, discord } from "@/content";
+import { contact, notFound, wiki, community } from "@/content";
 
 export default function NotFound() {
   return (
@@ -25,9 +25,9 @@ export default function NotFound() {
       <section id="action" className="mb-20 sm:mb-28">
         <ContactCard className="w-full" data={contact} />
         <div className="md:flex md:items-stretch">
-          <DiscordCard
+          <CommunityCard
             className="w-full md:w-1/2 md:mr-4 mt-6 sm:mt-8"
-            data={discord}
+            data={community}
           />
           <WikiCard
             className="w-full md:w-1/2 md:ml-4 mt-6 sm:mt-8"

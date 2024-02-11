@@ -7,9 +7,9 @@ import {
   WikiCard,
   Jumbotron,
   Logo,
-  DiscordCard,
+  CommunityCard,
 } from "@/app/components";
-import { home, contact, discord, wiki } from "@/content";
+import { home, contact, community, wiki } from "@/content";
 
 export default function Index() {
   return (
@@ -72,9 +72,9 @@ export default function Index() {
       <section id="contact" className="mb-20 sm:mb-28">
         <ContactCard className="w-full" data={contact} />
         <div className="md:flex md:items-stretch">
-          <DiscordCard
+          <CommunityCard
             className="w-full md:w-1/2 md:mr-4 mt-6 sm:mt-8"
-            data={discord}
+            data={community}
           />
           <WikiCard
             className="w-full md:w-1/2 md:ml-4 mt-6 sm:mt-8"
