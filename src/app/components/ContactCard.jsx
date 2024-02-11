@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Card from "@/app/components/Card";
+import ExternalLink from "@/app/components/ExternalLink";
 
 export default function ContactCard({ className = "", data }) {
   return (
@@ -16,12 +17,12 @@ export default function ContactCard({ className = "", data }) {
       </div>
       <div className="w-full md:w-7/12 lg:w-1/2 sm:mb-4">
         <p className="pb-4">{data.text}</p>
-        <a
-          className="font-bold text-xl md:text-2xl underline"
+        <ExternalLink
+          className="font-bold text-xl md:text-2xl"
           href={`mailto:${data.email.href}`}
         >
           {data.email.text}
-        </a>
+        </ExternalLink>
       </div>
     </Card>
   );

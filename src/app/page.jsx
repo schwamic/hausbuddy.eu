@@ -1,7 +1,8 @@
 import Link from "next/link";
-import { ExternalLink } from "lucide-react";
+import { ExternalLink as ExternalLinkIcon } from "lucide-react";
 import Footer from "@/app/components/Footer";
 import ContactCard from "@/app/components/ContactCard";
+import ExternalLink from "@/app/components/ExternalLink";
 import WikiCard from "@/app/components/WikiCard";
 import Jumbotron from "@/app/components/Jumbotron";
 import Logo from "@/app/components/Logo";
@@ -56,16 +57,14 @@ export default function Index() {
               {content.infos.tasks.title}
             </h3>
             <p>{content.infos.tasks.text}</p>
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
+            <ExternalLink
               href={content.infos.tasks.link.href}
-              className="inline text-nowrap underline cursor-pointer"
+              className="inline text-nowrap"
             >
               {content.infos.tasks.link.text}
-            </a>
+            </ExternalLink>
             <p className="inline">.</p>
-            <ExternalLink
+            <ExternalLinkIcon
               className="inline-block ml-1 mb-1"
               color="currentColor"
               strokeWidth={3}

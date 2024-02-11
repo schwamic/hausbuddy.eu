@@ -3,6 +3,7 @@ import Logo from "@/app/components/Logo";
 import ContactCard from "@/app/components/ContactCard";
 import WikiCard from "@/app/components/WikiCard";
 import DiscordCard from "@/app/components/DiscordCard";
+import ExternalLink from "@/app/components/ExternalLink";
 import content from "@/content/legal-notice";
 import contact from "@/content/contact";
 import wiki from "@/content/wiki";
@@ -35,14 +36,9 @@ export default function LegalNotice() {
         <section className="mb-12">
           <h2 className="mb-4 font-extrabold text-2xl">{content.eu.title}</h2>
           <p className="inline">{content.eu.description[0]}</p>
-          <a
-            className="inline underline cursor-pointer"
-            href={content.eu.link.href}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <ExternalLink className="inline" href={content.eu.link.href}>
             {content.eu.link.text}
-          </a>
+          </ExternalLink>
           <p className="inline">. {content.eu.description[1]}</p>
         </section>
 
@@ -69,14 +65,9 @@ export default function LegalNotice() {
           <h2 className="mb-4 font-extrabold text-2xl">
             {content.source.title}
           </h2>
-          <a
-            className="underline cursor-pointer"
-            href={content.source.link.href}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <ExternalLink href={content.source.link.href}>
             {content.source.link.text}
-          </a>
+          </ExternalLink>
         </section>
       </div>
 

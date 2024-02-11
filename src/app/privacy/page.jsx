@@ -3,6 +3,7 @@ import Logo from "@/app/components/Logo";
 import ContactCard from "@/app/components/ContactCard";
 import WikiCard from "@/app/components/WikiCard";
 import DiscordCard from "@/app/components/DiscordCard";
+import ExternalLink from "@/app/components/ExternalLink";
 import content from "@/content/privacy";
 import contact from "@/content/contact";
 import wiki from "@/content/wiki";
@@ -40,14 +41,9 @@ export default function Privacy() {
             {content.list[2].title}
           </h2>
           <p className="inline">{content.list[2].description}</p>
-          <a
-            className="inline underline cursor-pointer"
-            href={content.list[2].link.href}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <ExternalLink className="inline" href={content.list[2].link.href}>
             {content.list[2].link.text}
-          </a>
+          </ExternalLink>
           <p className="inline">.</p>
         </section>
 
@@ -89,14 +85,9 @@ export default function Privacy() {
           <h2 className="mb-4 font-extrabold text-2xl">
             {content.list[7].title}
           </h2>
-          <a
-            className="underline cursor-pointer"
-            href={content.list[7].link.href}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <ExternalLink href={content.list[7].link.href}>
             {content.list[7].link.text}
-          </a>
+          </ExternalLink>
         </section>
       </div>
 

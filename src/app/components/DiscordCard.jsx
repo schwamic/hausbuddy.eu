@@ -1,20 +1,19 @@
-import { ExternalLink } from "lucide-react";
+import { ExternalLinkIcon } from "lucide-react";
 import ActionCard from "@/app/components/ActionCard";
+import ExternalLink from "@/app/components/ExternalLink";
 
 export default function DiscordCard({ className = "", data }) {
   return (
     <ActionCard image={data.image} className={className}>
       <p className="inline">{data.text + " "}</p>
-      <a
-        rel="noopener noreferrer"
-        target="_blank"
+      <ExternalLink
         href={data.link.href}
-        className="inline text-nowrap underline cursor-pointer font-bold"
+        className="inline text-nowrap font-bold"
       >
         {data.link.text}
-      </a>
+      </ExternalLink>
       <p className="inline">.</p>
-      <ExternalLink
+      <ExternalLinkIcon
         className="inline-block ml-1 mb-1"
         color="white"
         strokeWidth={2.5}
