@@ -1,12 +1,12 @@
-import Footer from "@/app/components/Footer";
-import Logo from "@/app/components/Logo";
-import Jumbotron from "@/app/components/Jumbotron";
-import ContactCard from "@/app/components/ContactCard";
-import WikiCard from "@/app/components/WikiCard";
-import DiscordCard from "@/app/components/DiscordCard";
-import contact from "@/content/contact";
-import content from "@/content/wiki";
-import discord from "@/content/discord";
+import {
+  Footer,
+  Logo,
+  Jumbotron,
+  ContactCard,
+  WikiCard,
+  DiscordCard,
+} from "@/app/components";
+import { contact, wiki, discord } from "@/content";
 
 export default function Wiki() {
   return (
@@ -16,7 +16,7 @@ export default function Wiki() {
       </section>
       <section className="mb-24 sm:mb-28">
         <Jumbotron
-          data={content}
+          data={wiki}
           buttonStyle="blue"
           classBigImage="transform scale-90 lg:scale-100 -translate-y-4 lg:-translate-y-6"
           classSmallImage="transform scale-115 translate-x-3 sm:translate-x-0 sm:-translate-y-12"
@@ -37,7 +37,7 @@ export default function Wiki() {
           />
           <WikiCard
             className="w-full md:w-1/2 md:ml-4 mt-6 sm:mt-8"
-            data={content.card}
+            data={wiki.card}
           />
         </div>
       </section>

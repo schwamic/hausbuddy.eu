@@ -1,13 +1,12 @@
-import Footer from "@/app/components/Footer";
-import Logo from "@/app/components/Logo";
-import ContactCard from "@/app/components/ContactCard";
-import WikiCard from "@/app/components/WikiCard";
-import DiscordCard from "@/app/components/DiscordCard";
-import ExternalLink from "@/app/components/ExternalLink";
-import content from "@/content/privacy";
-import contact from "@/content/contact";
-import wiki from "@/content/wiki";
-import discord from "@/content/discord";
+import {
+  Footer,
+  Logo,
+  ContactCard,
+  WikiCard,
+  DiscordCard,
+  ExternalLink,
+} from "@/app/components";
+import { privacy, contact, wiki, discord } from "@/content";
 
 export default function Privacy() {
   return (
@@ -17,76 +16,76 @@ export default function Privacy() {
           <Logo width={180} height={98} />
         </section>
         <section className="mb-12">
-          <h1 className="mb-10 font-extrabold text-3xl">{content.title}</h1>
+          <h1 className="mb-10 font-extrabold text-3xl">{privacy.title}</h1>
         </section>
 
         <section className="mb-12">
           <h2 className="mb-4 font-extrabold text-2xl">
-            {content.list[0].title}
+            {privacy.list[0].title}
           </h2>
-          <p className="mb-2">{content.list[0].description[0]}</p>
-          <p className="mb-2">{content.list[0].description[1]}</p>
-          <p>{content.list[0].description[2]}</p>
+          <p className="mb-2">{privacy.list[0].description[0]}</p>
+          <p className="mb-2">{privacy.list[0].description[1]}</p>
+          <p>{privacy.list[0].description[2]}</p>
         </section>
 
         <section className="mb-12">
           <h2 className="mb-4 font-extrabold text-2xl">
-            {content.list[1].title}
+            {privacy.list[1].title}
           </h2>
-          <p>{content.list[1].description}</p>
+          <p>{privacy.list[1].description}</p>
         </section>
 
         <section className="mb-12">
           <h2 className="mb-4 font-extrabold text-2xl">
-            {content.list[2].title}
+            {privacy.list[2].title}
           </h2>
-          <p className="inline">{content.list[2].description}</p>
-          <ExternalLink className="inline" href={content.list[2].link.href}>
-            {content.list[2].link.text}
+          <p className="inline">{privacy.list[2].description}</p>
+          <ExternalLink className="inline" href={privacy.list[2].link.href}>
+            {privacy.list[2].link.text}
           </ExternalLink>
           <p className="inline">.</p>
         </section>
 
         <section className="mb-12">
           <h2 className="mb-4 font-extrabold text-2xl">
-            {content.list[3].title}
+            {privacy.list[3].title}
           </h2>
-          <p>{content.list[3].description}</p>
+          <p>{privacy.list[3].description}</p>
         </section>
 
         <section className="mb-12">
           <h2 className="mb-4 font-extrabold text-2xl">
-            {content.list[4].title}
+            {privacy.list[4].title}
           </h2>
-          <p>{content.list[4].description}</p>
+          <p>{privacy.list[4].description}</p>
         </section>
 
         <section className="mb-12">
           <h2 className="mb-4 font-extrabold text-2xl">
-            {content.list[5].title}
+            {privacy.list[5].title}
           </h2>
-          <p className="mb-2">{content.list[5].description[0]}</p>
+          <p className="mb-2">{privacy.list[5].description[0]}</p>
           <ul className="mb-2 list-inside list-disc">
-            {content.list[5].description[1].map((item, key) => (
+            {privacy.list[5].description[1].map((item, key) => (
               <li key={key}>{item}</li>
             ))}
           </ul>
-          <p>{content.list[5].description[2]}</p>
+          <p>{privacy.list[5].description[2]}</p>
         </section>
 
         <section className="mb-12">
           <h2 className="mb-4 font-extrabold text-2xl">
-            {content.list[6].title}
+            {privacy.list[6].title}
           </h2>
-          <p>{content.list[6].description}</p>
+          <p>{privacy.list[6].description}</p>
         </section>
 
         <section className="mb-24 sm:mb-28">
           <h2 className="mb-4 font-extrabold text-2xl">
-            {content.list[7].title}
+            {privacy.list[7].title}
           </h2>
-          <ExternalLink href={content.list[7].link.href}>
-            {content.list[7].link.text}
+          <ExternalLink href={privacy.list[7].link.href}>
+            {privacy.list[7].link.text}
           </ExternalLink>
         </section>
       </div>

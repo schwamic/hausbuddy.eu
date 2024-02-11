@@ -1,13 +1,12 @@
-import Footer from "@/app/components/Footer";
-import Logo from "@/app/components/Logo";
-import Jumbotron from "@/app/components/Jumbotron";
-import ContactCard from "@/app/components/ContactCard";
-import WikiCard from "@/app/components/WikiCard";
-import DiscordCard from "@/app/components/DiscordCard";
-import contact from "@/content/contact";
-import content from "@/content/not-found";
-import wiki from "@/content/wiki";
-import discord from "@/content/discord";
+import {
+  Footer,
+  Logo,
+  Jumbotron,
+  ContactCard,
+  WikiCard,
+  DiscordCard,
+} from "@/app/components";
+import { contact, notFound, wiki, discord } from "@/content";
 
 export default function NotFound() {
   return (
@@ -17,7 +16,7 @@ export default function NotFound() {
       </section>
       <section className="mb-24 sm:mb-28">
         <Jumbotron
-          data={content}
+          data={notFound}
           buttonStyle="blue"
           classBigImage="transform scale-75 lg:scale-90 -translate-y-5 lg:-translate-y-8"
           classSmallImage="transform scale-100 sm:scale-115 sm:-translate-y-12"

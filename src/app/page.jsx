@@ -1,16 +1,15 @@
 import Link from "next/link";
 import { ExternalLink as ExternalLinkIcon } from "lucide-react";
-import Footer from "@/app/components/Footer";
-import ContactCard from "@/app/components/ContactCard";
-import ExternalLink from "@/app/components/ExternalLink";
-import WikiCard from "@/app/components/WikiCard";
-import Jumbotron from "@/app/components/Jumbotron";
-import Logo from "@/app/components/Logo";
-import DiscordCard from "@/app/components/DiscordCard";
-import content from "@/content/landingpage";
-import contact from "@/content/contact";
-import discord from "@/content/discord";
-import wiki from "@/content/wiki";
+import {
+  Footer,
+  ContactCard,
+  ExternalLink,
+  WikiCard,
+  Jumbotron,
+  Logo,
+  DiscordCard,
+} from "@/app/components";
+import { home, contact, discord, wiki } from "@/content";
 
 export default function Index() {
   return (
@@ -21,7 +20,7 @@ export default function Index() {
 
       <section className="mb-24 sm:mb-28">
         <Jumbotron
-          data={content.headline}
+          data={home.headline}
           classBigImage="transform scale-95 lg:scale-105 -translate-y-5 lg:-translate-y-8"
           classSmallImage="transform scale-100 translate-x-6 sm:translate-x-0 sm:-translate-y-12"
         />
@@ -31,37 +30,33 @@ export default function Index() {
       <section className="mb-20 md:mb-28">
         <div className="flex sm:justify-center w-full mb-8 md:mb-16">
           <h2 className="font-extrabold text-2xl md:text-3xl">
-            {content.infos.title}
+            {home.infos.title}
           </h2>
         </div>
         <div className="flex flex-wrap leading-relaxed">
           <div className="order-1 w-100 md:w-6/12 md:pr-6">
-            <p>{content.infos.intro}</p>
+            <p>{home.infos.intro}</p>
           </div>
           <div className="order-3 w-100 md:w-6/12 mt-8 md:pr-6">
-            <h3 className="font-extrabold mb-1.5">{content.infos.why.title}</h3>
-            <p className="inline">{content.infos.why.text + " "}</p>
+            <h3 className="font-extrabold mb-1.5">{home.infos.why.title}</h3>
+            <p className="inline">{home.infos.why.text + " "}</p>
             <Link href="/wiki" className="underline inline">
-              {content.infos.why.link}
+              {home.infos.why.link}
             </Link>
             <p className="inline">.</p>
           </div>
           <div className="order-2 w-100 md:w-6/12 mt-8 md:mt-0 md:pl-6">
-            <h3 className="font-extrabold mb-1.5">
-              {content.infos.what.title}
-            </h3>
-            <p>{content.infos.what.text}</p>
+            <h3 className="font-extrabold mb-1.5">{home.infos.what.title}</h3>
+            <p>{home.infos.what.text}</p>
           </div>
           <div className="order-4 w-100 md:w-6/12 mt-8 md:pl-6">
-            <h3 className="font-extrabold mb-1.5">
-              {content.infos.tasks.title}
-            </h3>
-            <p>{content.infos.tasks.text}</p>
+            <h3 className="font-extrabold mb-1.5">{home.infos.tasks.title}</h3>
+            <p>{home.infos.tasks.text}</p>
             <ExternalLink
-              href={content.infos.tasks.link.href}
+              href={home.infos.tasks.link.href}
               className="inline text-nowrap"
             >
-              {content.infos.tasks.link.text}
+              {home.infos.tasks.link.text}
             </ExternalLink>
             <p className="inline">.</p>
             <ExternalLinkIcon

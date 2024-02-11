@@ -1,13 +1,12 @@
-import Footer from "@/app/components/Footer";
-import Logo from "@/app/components/Logo";
-import ContactCard from "@/app/components/ContactCard";
-import WikiCard from "@/app/components/WikiCard";
-import DiscordCard from "@/app/components/DiscordCard";
-import ExternalLink from "@/app/components/ExternalLink";
-import content from "@/content/legal-notice";
-import contact from "@/content/contact";
-import wiki from "@/content/wiki";
-import discord from "@/content/discord";
+import {
+  Footer,
+  Logo,
+  ContactCard,
+  WikiCard,
+  DiscordCard,
+  ExternalLink,
+} from "@/app/components";
+import { legalNotice, contact, wiki, discord } from "@/content";
 
 export default function LegalNotice() {
   return (
@@ -17,56 +16,62 @@ export default function LegalNotice() {
           <Logo width={180} height={98} />
         </section>
         <section className="mb-12">
-          <h1 className="mb-10 font-extrabold text-3xl">{content.title}</h1>
-        </section>
-
-        <section className="mb-12">
-          <h2 className="mb-4 font-extrabold text-2xl">{content.tmg.title}</h2>
-          <p className="inline-block mb-2">{content.tmg.description}</p>
-          <h3 className="mt-4 font-extrabold text-xl">
-            {content.tmg.list[0].title}
-          </h3>
-          <p>{content.tmg.list[0].description}</p>
-          <h3 className="mt-4 font-extrabold text-xl">
-            {content.tmg.list[1].title}
-          </h3>
-          <p>{content.tmg.list[1].description}</p>
-        </section>
-
-        <section className="mb-12">
-          <h2 className="mb-4 font-extrabold text-2xl">{content.eu.title}</h2>
-          <p className="inline">{content.eu.description[0]}</p>
-          <ExternalLink className="inline" href={content.eu.link.href}>
-            {content.eu.link.text}
-          </ExternalLink>
-          <p className="inline">. {content.eu.description[1]}</p>
+          <h1 className="mb-10 font-extrabold text-3xl">{legalNotice.title}</h1>
         </section>
 
         <section className="mb-12">
           <h2 className="mb-4 font-extrabold text-2xl">
-            {content.consumer.title}
+            {legalNotice.tmg.title}
           </h2>
-          <p className="inline-block mb-2">{content.consumer.description}</p>
+          <p className="inline-block mb-2">{legalNotice.tmg.description}</p>
           <h3 className="mt-4 font-extrabold text-xl">
-            {content.consumer.list[0].title}
+            {legalNotice.tmg.list[0].title}
           </h3>
-          <p>{content.consumer.list[0].description}</p>
+          <p>{legalNotice.tmg.list[0].description}</p>
           <h3 className="mt-4 font-extrabold text-xl">
-            {content.consumer.list[1].title}
+            {legalNotice.tmg.list[1].title}
           </h3>
-          <p>{content.consumer.list[1].description}</p>
+          <p>{legalNotice.tmg.list[1].description}</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="mb-4 font-extrabold text-2xl">
+            {legalNotice.eu.title}
+          </h2>
+          <p className="inline">{legalNotice.eu.description[0]}</p>
+          <ExternalLink className="inline" href={legalNotice.eu.link.href}>
+            {legalNotice.eu.link.text}
+          </ExternalLink>
+          <p className="inline">. {legalNotice.eu.description[1]}</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="mb-4 font-extrabold text-2xl">
+            {legalNotice.consumer.title}
+          </h2>
+          <p className="inline-block mb-2">
+            {legalNotice.consumer.description}
+          </p>
           <h3 className="mt-4 font-extrabold text-xl">
-            {content.consumer.list[2].title}
+            {legalNotice.consumer.list[0].title}
           </h3>
-          <p>{content.consumer.list[2].description}</p>
+          <p>{legalNotice.consumer.list[0].description}</p>
+          <h3 className="mt-4 font-extrabold text-xl">
+            {legalNotice.consumer.list[1].title}
+          </h3>
+          <p>{legalNotice.consumer.list[1].description}</p>
+          <h3 className="mt-4 font-extrabold text-xl">
+            {legalNotice.consumer.list[2].title}
+          </h3>
+          <p>{legalNotice.consumer.list[2].description}</p>
         </section>
 
         <section className="mb-24 sm:mb-28">
           <h2 className="mb-4 font-extrabold text-2xl">
-            {content.source.title}
+            {legalNotice.source.title}
           </h2>
-          <ExternalLink href={content.source.link.href}>
-            {content.source.link.text}
+          <ExternalLink href={legalNotice.source.link.href}>
+            {legalNotice.source.link.text}
           </ExternalLink>
         </section>
       </div>
