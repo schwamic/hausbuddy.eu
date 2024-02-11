@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Logo from "@/app/components/Logo";
 
-export default function Footer({ className }) {
+export default function Footer({ className = "" }) {
   return (
     <div className={`flex justify-between items-baseline ${className}`}>
       <div className="hidden sm:block">

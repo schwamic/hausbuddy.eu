@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Logo({ width, height, className }) {
+export default function Logo({ width, height, className = "" }) {
   return (
     <Image
       className={className}
