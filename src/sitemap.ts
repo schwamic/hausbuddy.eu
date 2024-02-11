@@ -15,13 +15,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: "https://haudbuddy.eu/datenschutz",
+      url: "https://haudbuddy.eu/privacy",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.5,
     },
     {
-      url: "https://haudbuddy.eu/impressum",
+      url: "https://haudbuddy.eu/legal-notice",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.5,
