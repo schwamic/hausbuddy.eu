@@ -8,7 +8,24 @@ const sora = Sora({
 
 export const metadata = {
   title: "hausbuddy",
-  description: "Community für aktive Hausbewohner:innen",
+  description:
+    "Community für aktive Hausbewohner:innen – Hier findest du alles was du zum Durchstarten als Hausmeister:in in deinem Wohnhaus brauchst.",
+  openGraph: {
+    title: "hausbuddy",
+    description:
+      "Community für aktive Hausbewohner:innen – Hier findest du alles was du zum Durchstarten als Hausmeister:in in deinem Wohnhaus brauchst.",
+    url: "https://hausbuddy.eu",
+    siteName: "hausbuddy",
+    images: [
+      {
+        url: "https://www.hausbuddy.eu/og-image.jpg",
+        width: 1200,
+        height: 628,
+      },
+    ],
+    locale: "de",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {
