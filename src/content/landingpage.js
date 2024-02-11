@@ -27,7 +27,7 @@ export default {
     },
     what: {
       title: "Was ist das Ziel hinter hausbuddy?",
-      text: "Wir träumen von einem achtsamen selbst-verwalteten Wohnraum und unserer Meinung nach kann jede Person einen Beitrag dazu leisten. hausbuddy unterstützt dich dabei nebenberuflich deinen eigenen Hausmeister-dienst zu gründen, sodass du zum/zur Hausmeister:in in deinem Wohnhaus wirst.",
+      text: "Wir träumen von einem achtsamen selbstverwalteten Wohnraum und unserer Meinung nach kann jede Person einen Beitrag dazu leisten. hausbuddy unterstützt dich dabei nebenberuflich deinen eigenen Hausmeisterdienst zu gründen, sodass du zum/zur Hausmeister:in in deinem Wohnhaus wirst.",
     },
     tasks: {
       title: "Welche Tätigkeiten sind erlaubt?",
