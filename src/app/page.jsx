@@ -37,17 +37,17 @@ export default function Index() {
           <div className="order-1 w-100 md:w-6/12 md:pr-6">
             <p>{home.infos.intro}</p>
           </div>
-          <div className="order-3 w-100 md:w-6/12 mt-8 md:pr-6">
+          <div className="order-2 md:order-3 w-100 md:w-6/12 mt-8 md:pr-6">
+            <h3 className="font-extrabold mb-1.5">{home.infos.what.title}</h3>
+            <p>{home.infos.what.text}</p>
+          </div>
+          <div className="order-3 md:order-2 w-100 md:w-6/12 mt-8 md:mt-0 md:pl-6">
             <h3 className="font-extrabold mb-1.5">{home.infos.why.title}</h3>
             <p className="inline">{home.infos.why.text + " "}</p>
             <Link href="/wiki" className="underline inline">
               {home.infos.why.link}
             </Link>
             <p className="inline">.</p>
-          </div>
-          <div className="order-2 w-100 md:w-6/12 mt-8 md:mt-0 md:pl-6">
-            <h3 className="font-extrabold mb-1.5">{home.infos.what.title}</h3>
-            <p>{home.infos.what.text}</p>
           </div>
           <div className="order-4 w-100 md:w-6/12 mt-8 md:pl-6">
             <h3 className="font-extrabold mb-1.5">{home.infos.tasks.title}</h3>
