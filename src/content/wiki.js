@@ -26,4 +26,42 @@ export default {
       alt: "handbook",
     },
   },
+  content: [
+    {
+      title: "Community auf Slack",
+      content: {
+        text: "Dieses Kapitel befindet sich im Aufbau. (Kanäle, Regeln, Werte, etc.)",
+      },
+    },
+    {
+      title: "Informationen für den/die Vermieter:in",
+      content: {
+        text: "Dieses Kapitel befindet sich im Aufbau. (Aufwände, Vorteile, Anmeldungsverfahren, etc.)",
+      },
+    },
+    {
+      title: "Das Mini-Job Arbeitsverhältnis",
+      content: {
+        text: "Dieses Kapitel befindet sich im Aufbau. (Tätigkeiten, Steuern, Versicherung, Rente, etc.)",
+      },
+    },
+    {
+      title: "Bewerbung zum/zur Hausmeister:in",
+      content: {
+        text: "Dieses Kapitel befindet sich im Aufbau. (Tätigkeiten, Personalangaben, Anschreiben, Lebenslauf, Arbeitsvertrag, etc.)",
+      },
+    },
+    {
+      title: "Außenkommunikation als Hausmeister:in",
+      content: {
+        text: "Dieses Kapitel befindet sich im Aufbau. (Aushänge, WhatsApp, T-Shirt und Pullis (Erscheinungsbild))",
+      },
+    },
+    {
+      title: "Weiterbildungsmöglichkeiten",
+      content: {
+        text: "Dieses Kapitel befindet sich im Aufbau. (IHK, TÜV SÜD, etc.)",
+      },
+    },
+  ],
 };

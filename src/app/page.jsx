@@ -18,7 +18,7 @@ export default function Index() {
         <Logo width={180} height={98} />
       </section>
 
-      <section className="mb-24 sm:mb-28">
+      <section className="mb-24 mb:mb-20">
         <Jumbotron
           data={home.headline}
           classBigImage="transform scale-95 lg:scale-105 -translate-y-5 lg:-translate-y-8"

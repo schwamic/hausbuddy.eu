@@ -1,4 +1,5 @@
 import { Sora } from "next/font/google";
+import { Providers } from "./providers";
 import "@/globals.css";
 
 const sora = Sora({
@@ -30,11 +31,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="de">
+    <html lang="de" className="light">
       <body id="hausbuddy" className={`${sora.variable} font-sans`}>
-        <div className="w-full lg:max-w-6xl lg:mx-auto px-4 sm:px-16 my-5 sm:my-16 font-semibold tracking-normal hyphens-auto">
-          {children}
-        </div>
+        <Providers>
+          <div className="w-full lg:max-w-6xl lg:mx-auto px-4 sm:px-16 my-5 sm:my-16 font-semibold tracking-normal hyphens-auto">
+            {children}
+          </div>
+        </Providers>
       </body>
     </html>
   );

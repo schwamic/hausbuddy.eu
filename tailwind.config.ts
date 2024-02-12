@@ -1,7 +1,12 @@
+const { nextui } = require("@nextui-org/theme");
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
+  content: [
+    "./node_modules/@nextui-org/theme/dist/components/accordion.js",
+    "./node_modules/@nextui-org/theme/dist/components/accordion-item.js",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
   theme: {
     extend: {
       fontFamily: {
@@ -12,6 +17,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [nextui()],
 };
 export default config;
