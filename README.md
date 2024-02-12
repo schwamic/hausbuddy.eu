@@ -1,6 +1,6 @@
 # hausbuddy
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). The UI is based on tools such as [TailwindCSS](https://tailwindcss.com/docs/utility-first), [NextUI](https://nextui.org/docs/guide/introduction) and [Lucide](https://lucide.dev).
 
 ## Getting Started
 
