@@ -20,14 +20,14 @@ export default {
     title: "Wie? Was? Warum? Buddy!",
     intro:
       "Früher hat die Hausgemeinschaft die gängigen Hausmeistertätigkeiten selbst erledigt. Das ist heute nicht mehr der Fall, muss es ja auch nicht, für die Leute die jedoch in ihrem Wohnhaus selbst aktiv werden möchten gibt es hausbuddy. Denn Selbstverwaltung bringt viele Vorteile. So kannst du dich z.B. für gemeinschafliche Flächen einsetzen und nebenher etwas Geld verdienen.",
+    what: {
+      title: "Was ist das Ziel hinter hausbuddy?",
+      text: "Wir träumen von einem achtsamen und verantwortungsbewussten Umgang mit Wohnraum und unserer Meinung nach kann jede Person einen Beitrag dazu leisten. hausbuddy unterstützt dich dabei nebenberuflich auf Mini-Job-Basis als Hausmeister:in in deinem Wohnhaus durchzustarten.",
+    },
     why: {
       title: "Warum sollte ich Buddy werden?",
       text: "Aller Anfang ist schwer, gerade als Einzelkämper:in. hausbuddy ist deine Community rund um den  Hausmeisterdienst. Hier bekommst du  Muster-Unterlagen, Wissen, Werkzeug, helfende Hände und kannst dich mit allen anderen Buddies austauschen. Weitere Informationen findest du im",
       link: "Wiki",
-    },
-    what: {
-      title: "Was ist das Ziel hinter hausbuddy?",
-      text: "Wir träumen von einem achtsamen und verantwortungsbewussten Umgang mit Wohnraum und unserer Meinung nach kann jede Person einen Beitrag dazu leisten. hausbuddy unterstützt dich dabei nebenberuflich auf Mini-Job-Basis zum/zur Hausmeister:in in deinem Wohnhaus zu werden.",
     },
     tasks: {
       title: "Welche Tätigkeiten sind erlaubt?",
