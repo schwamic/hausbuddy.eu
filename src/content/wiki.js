@@ -32,15 +32,17 @@ export default {
       content: {
         text: (
           <>
-            Zum Austausch zwischen allen Buddies dient die Plattform Slack. Um
-            Teil der Community bei Slack zu werden schreibe uns einfach eine
-            kurze E-Mail, dann schicken wir dir einen Einladungs-Link. Aktuell
-            gibt es die Kanäle "Allgemein", "Willkommen" und "Kleinanzeigen".
-            Wenn du einen Kanal öffnest findest du oben am Fenster eine kurze
-            Beschreibung. Versuche entsprechend deine Nachrichten thematisch in
-            den passenden Kanal zu posten. Damit hausbuddy ein unterstützender
-            Ort für alle Personen ist und bleibt, halten wir uns an die
-            Community Richtlinien von Instagram (Meta). Bitte kontaktiere
+            Zum Austausch zwischen allen Buddies dient die Plattform{" "}
+            <i>Slack</i>. Um Teil der Community bei Slack zu werden schreibe uns
+            einfach eine kurze E-Mail, dann schicken wir dir einen
+            Einladungs-Link. Aktuell gibt es die Kanäle <i>Allgemein</i>,{" "}
+            <i>Kleinanzeigen</i> und
+            <i>Willkommen</i>. Wenn du einen Kanal öffnest findest du oben am
+            Fenster eine kurze Beschreibung. Versuche entsprechend deine
+            Nachrichten thematisch in den passenden Kanal zu posten. Damit
+            hausbuddy ein unterstützender Ort für alle Personen ist und bleibt,
+            halten wir uns an die{" "}
+            <i>Community Richtlinien von Instagram (Meta)</i>. Bitte kontaktiere
             hausbuddy direkt per E-Mail bei Verletzungen der Richtlinien.
           </>
         ),
@@ -64,11 +66,11 @@ export default {
             Besonders für private Vermieter:innen lohnt sich ein/eine
             Hausmeister:in auf Minijob-Basis, da die Kosten gering bleiben und
             keine Lohnnebenkosten anfallen. Hierzu meldet der/die Vermieter:in
-            einen gewerblichen Minijob an. Die Minijob-Zentrale bietet auf deren
-            Webseite ausführliche Informationen zu dem Thema an, stellt alle
-            nötigen Formulare bereit und ist telefonisch für individuelle Fragen
-            erreichbar. Allgemein ist die Anmeldung relativ unbürokratisch und
-            einfach durchzuführen.
+            einen gewerblichen Minijob an. Die <i>Minijob-Zentrale</i> bietet
+            auf deren Webseite ausführliche Informationen zu dem Thema an,
+            stellt alle nötigen Formulare bereit und ist telefonisch für
+            individuelle Fragen erreichbar. Allgemein ist die Anmeldung relativ
+            unbürokratisch und einfach durchzuführen.
           </>
         ),
         links: [
@@ -84,15 +86,44 @@ export default {
       },
     },
     {
-      title: "Das Mini-Job Arbeitsverhältnis",
+      title: "Das Minijob Arbeitsverhältnis",
       content: {
         text: (
           <>
-            Dieses Kapitel befindet sich im Aufbau. (Tätigkeiten, Steuern,
-            Versicherung, Rente, etc.)
+            Als Hausmeister:in hast du ein gewerbliches Minijob
+            Arbeitsverhältnis. Was genau das bedeutet erklärt die{" "}
+            <i>Minijob-Zentrale</i> auf deren Webseite. Das ist ebenfalls die
+            beste Quelle zu allen weiteren Themen wie z.B. Versicherungen,
+            Steuern, Arbeitsrecht und -vertrag. Speziell im Hausmeisterdienst
+            ist es ebenfalls sehr wichtig zu wissen, welche Tätigkeiten erlaubt
+            sind und welche von Fachkräften durchgeführt werden müssen. Hierzu
+            gibt z.B. die <i>IHK Schwaben</i> Auskunft auf deren Webseite.
+            Natürlich bist du dabei nicht auf dich allein gestellt, dafür gibt
+            es schließlich die <i>hausbuddy Community</i>!
           </>
         ),
-        links: [],
+        links: [
+          {
+            text: "Minijob-Zentrale: Minijob einfach erklärt",
+            href: "https://www.minijob-zentrale.de/DE/die-minijobs/die-minijobs_node.html",
+          },
+          {
+            text: "Minijob-Zentrale: Arbeitsrechte im Minijob",
+            href: "https://www.minijob-zentrale.de/DE/die-minijobs/arbeitsrechte-im-minijob/arbeitsrechte-im-minijob_node.html",
+          },
+          {
+            text: "Minijob-Zentrale: Beiträge, Umlagen und Steuern",
+            href: "https://www.minijob-zentrale.de/DE/fuer-gewerbetreibende/abgaben-und-steuern/abgaben-und-steuern_node.html",
+          },
+          {
+            text: "Minijob-Zentrale: Versicherungen im gewerblichen Minijob",
+            href: "https://www.minijob-zentrale.de/DE/die-minijobs/versicherungen/versicherungen_node.html#doc31132501-966b-403b-92c7-1fb2257d6d52bodyText2",
+          },
+          {
+            text: "IHK Schwaben: Hausmeistertätigkeiten",
+            href: "https://www.ihk.de/schwaben/produktmarken/beratung-und-service/recht-und-steuern/gewerbe-und-handwerksrecht/hausmeisterdienste-554052",
+          },
+        ],
       },
     },
     {
@@ -112,11 +143,25 @@ export default {
       content: {
         text: (
           <>
-            Dieses Kapitel befindet sich im Aufbau. (Aushänge, WhatsApp, T-Shirt
-            und Pullis (Erscheinungsbild))
+            Als Hausmeister:in in deinem Wohnhaus hilft dir eine organisierte
+            Außenkommunikation, damit alle Hausbewohner:innen und dein(e)
+            Vermieter:in mit dir einfach in Kontakt treten können. Hierzu
+            stellen wir dir einen Leitfaden und passende Unterlagen, wie z.B.
+            einen Aushang im Treppenhaus, als Download bereit. Ebenfalls kannst
+            du dir ein hausbuddy T-Shirt und Hoodie bestellen um für die
+            hausbuddy Community zu werben!
           </>
         ),
-        links: [],
+        links: [
+          {
+            text: "hausbuddy: Leitfaden und Unterlagen",
+            href: "mailto:hausbuddy@posteo.eu",
+          },
+          {
+            text: "hausbuddy: Shop",
+            href: "mailto:hausbuddy@posteo.eu",
+          },
+        ],
       },
     },
     {

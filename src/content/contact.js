@@ -6,6 +6,6 @@ export default {
   },
   email: {
     text: "hausbuddy@posteo.eu",
-    href: "hausbuddy@posteo.eu",
+    href: "mailto:hausbuddy@posteo.eu",
   },
 };

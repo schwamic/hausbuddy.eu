@@ -19,7 +19,7 @@ export default function ContactCard({ className = "", data, ...props }) {
         <p className="pb-4">{data.text}</p>
         <ExternalLink
           className="font-bold text-xl md:text-2xl"
-          href={`mailto:${data.email.href}`}
+          href={data.email.href}
           showIcon={false}
         >
           {data.email.text}
