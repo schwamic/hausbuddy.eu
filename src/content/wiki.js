@@ -48,12 +48,12 @@ export default {
         ),
         links: [
           {
-            text: "Community-Richtlinien von Instagram",
-            href: "https://help.instagram.com/477434105621119?cms_id=477434105621119",
-          },
-          {
             text: "hausbuddy Community bei Slack",
             href: "https://hausbuddy.slack.com",
+          },
+          {
+            text: "Community-Richtlinien von Instagram",
+            href: "https://help.instagram.com/477434105621119?cms_id=477434105621119",
           },
         ],
       },
@@ -134,10 +134,20 @@ export default {
             Dieses Kapitel befindet sich aktuell noch im Aufbau. Ziel ist es dir
             Unterlagen und Hilfestellungen in den Bereichen: Anschreiben,
             Lebenslauf, Personalangaben, Arbeitsvertrag, Tätigkeitsbereich etc.
-            an die Hand zu geben.
+            an die Hand zu geben. Schreibe uns bei Interesse gerne eine E-Mail
+            und/oder trete der Community bei und stelle deine Fragen.
           </>
         ),
-        links: [],
+        links: [
+          {
+            text: "hausbuddy Community bei Slack",
+            href: "https://hausbuddy.slack.com",
+          },
+          {
+            text: "hausbuddy E-Mail Kontakt",
+            href: "mailto:hausbuddy@posteo.eu",
+          },
+        ],
       },
     },
     {
@@ -151,16 +161,18 @@ export default {
             stellen wir dir einen Leitfaden und passende Unterlagen, wie z.B.
             einen Aushang im Treppenhaus, als Download bereit. Ebenfalls kannst
             du dir ein hausbuddy T-Shirt und Hoodie bestellen um für die
-            hausbuddy Community zu werben!
+            hausbuddy Community zu werben! Aktuell befindet sich das Angebot
+            noch im Aufbau, schreibe uns bei Interesse gerne eine E-Mail
+            und/oder trete der Community bei und stelle deine Fragen.
           </>
         ),
         links: [
           {
-            text: "hausbuddy: Leitfaden und Unterlagen",
-            href: "mailto:hausbuddy@posteo.eu",
+            text: "hausbuddy Community bei Slack",
+            href: "https://hausbuddy.slack.com",
           },
           {
-            text: "hausbuddy: Online Shop",
+            text: "hausbuddy E-Mail Kontakt",
             href: "mailto:hausbuddy@posteo.eu",
           },
         ],
