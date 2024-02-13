@@ -131,8 +131,10 @@ export default {
       content: {
         text: (
           <>
-            Dieses Kapitel befindet sich im Aufbau. (Tätigkeiten,
-            Personalangaben, Anschreiben, Lebenslauf, Arbeitsvertrag, etc.)
+            Dieses Kapitel befindet sich aktuell noch im Aufbau. Ziel ist es dir
+            Unterlagen und Hilfestellungen in den Bereichen: Anschreiben,
+            Lebenslauf, Personalangaben, Arbeitsvertrag, Tätigkeitsbereich etc.
+            an die Hand zu geben.
           </>
         ),
         links: [],
@@ -144,7 +146,7 @@ export default {
         text: (
           <>
             Als Hausmeister:in in deinem Wohnhaus hilft dir eine organisierte
-            Außenkommunikation, damit alle Hausbewohner:innen und dein(e)
+            Außenkommunikation damit alle Hausbewohner:innen und dein(e)
             Vermieter:in mit dir einfach in Kontakt treten können. Hierzu
             stellen wir dir einen Leitfaden und passende Unterlagen, wie z.B.
             einen Aushang im Treppenhaus, als Download bereit. Ebenfalls kannst
@@ -158,7 +160,7 @@ export default {
             href: "mailto:hausbuddy@posteo.eu",
           },
           {
-            text: "hausbuddy: Shop",
+            text: "hausbuddy: Online Shop",
             href: "mailto:hausbuddy@posteo.eu",
           },
         ],
@@ -167,27 +169,36 @@ export default {
     {
       title: "Weiterbildungsmöglichkeiten",
       content: {
-        text: <>Dieses Kapitel befindet sich im Aufbau. (IHK, TÜV SÜD, etc.)</>,
-        links: [],
+        text: (
+          <>
+            Hausmeister:innen haben vielseitige Aufgaben. Wenn du mehr Wissen
+            aufbaust, kannst du mehr Verantwortung übernehmen und bist somit
+            auch berechtigt komplexere Aufgaben durchzuführen. Tolle
+            Weiterbildungen im handwerkliche Bereich bieten z.B. <i>TÜV SÜD</i>{" "}
+            und <i>DEKRA</i> an. Ebenfalls ist ein Erste-Hilfe-Kurs immer ganz
+            hilfreich, den du z.B. bei der Hilfsorganisation <i>Johanniter</i>{" "}
+            machen kannst.
+          </>
+        ),
+        links: [
+          {
+            text: "TÜV SÜD: Elektrotechnisch unterwiesene Person",
+            href: "https://www.tuvsud.com/de-de/store/akademie/seminare-technik/gebaeudetechnik/haustechnik/3612021",
+          },
+          {
+            text: "TÜV SÜD: Grundlagen der Haustechnik",
+            href: "https://www.tuvsud.com/de-de/store/akademie/seminare-technik/gebaeudetechnik/haustechnik/4114001",
+          },
+          {
+            text: "DEKRA: Motorsägenschein",
+            href: "https://www.dekra-akademie.de/weiterbildung/motorsaegenschein",
+          },
+          {
+            text: "Johanniter: Erste-Hilfe-Kurs",
+            href: "https://www.johanniter.de/dienste-leistungen/medizinische-hilfe/erste-hilfe/erste-hilfe-kurse-fuer-privatpersonen/",
+          },
+        ],
       },
-    },
-  ],
-  source: [
-    {
-      text: "Minijob-Zentrale",
-      href: "https://www.minijob-zentrale.de",
-    },
-    {
-      text: "HausverwalterScout",
-      href: "https://magazin.hausverwalterscout.de/vorteile-eines-hausmeisters-auf-450-euro-basis-teil-i/",
-    },
-    {
-      text: "Getmomo Financial",
-      href: "https://www.getmomo.de/hausmeister-520-basis/#:~:text=Ein%20Minijob%20als%20Ergänzung%20zum,erhöhen%20das%20zu%20versteuernde%20Einkommen.",
-    },
-    {
-      test: "Vermietet.de",
-      href: "https://www.vermietet.de/magazin/hausmeister-minijob/",
     },
   ],
 };
