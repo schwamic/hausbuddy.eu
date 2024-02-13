@@ -1,12 +1,33 @@
-export default function ExternalLink({ children, href, className = "" }) {
+import { ExternalLink as ExternalLinkIcon } from "lucide-react";
+
+export default function ExternalLink({
+  children,
+  key,
+  href,
+  className = "",
+  showIcon = true,
+  ...props
+}) {
   return (
-    <a
-      className={`underline cursor-pointer ${className}`}
-      rel="noopener noreferrer"
-      target="_blank"
-      href={href}
-    >
-      {children}
-    </a>
+    <>
+      <a
+        {...props}
+        className={`underline cursor-pointer ${className}`}
+        rel="noopener noreferrer"
+        target="_blank"
+        href={href}
+        key={key}
+      >
+        {children}
+      </a>
+      {showIcon && (
+        <ExternalLinkIcon
+          className="inline-block ml-1 mb-1"
+          color="currentColor"
+          strokeWidth={3}
+          size={16}
+        />
+      )}
+    </>
   );
 }

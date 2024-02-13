@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { ExternalLink as ExternalLinkIcon } from "lucide-react";
 import {
   Footer,
   ContactCard,
@@ -59,18 +58,12 @@ export default function Index() {
               {home.infos.tasks.link.text}
             </ExternalLink>
             <p className="inline">.</p>
-            <ExternalLinkIcon
-              className="inline-block ml-1 mb-1"
-              color="currentColor"
-              strokeWidth={3}
-              size={16}
-            />
           </div>
         </div>
       </section>
 
-      <section id="contact" className="mb-20 sm:mb-28">
-        <ContactCard className="w-full" data={contact} />
+      <section className="mb-20 sm:mb-28">
+        <ContactCard id="contact" className="w-full" data={contact} />
         <div className="md:flex md:items-stretch">
           <CommunityCard
             className="w-full md:w-1/2 md:mr-4 mt-6 sm:mt-8"

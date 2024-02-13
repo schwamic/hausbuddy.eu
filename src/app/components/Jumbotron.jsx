@@ -8,9 +8,11 @@ export default function Jumbotron({
   classSmallImage = "",
   buttonStyle = "yellow",
   showButton = true,
+  ...props
 }) {
   return (
     <div
+      {...props}
       className={`flex items-center flex-col-reverse sm:flex-row ${className}`}
     >
       <div className="flex items-center sm:items-start flex-col w-full max-w-96 sm:max-w-full">

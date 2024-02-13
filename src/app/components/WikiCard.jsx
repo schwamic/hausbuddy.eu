@@ -1,9 +1,9 @@
 import Link from "next/link";
 import ActionCard from "@/app/components/ActionCard";
 
-export default function WikiCard({ className = "", data }) {
+export default function WikiCard({ className = "", data, ...props }) {
   return (
-    <ActionCard image={data.image} className={className}>
+    <ActionCard {...props} image={data.image} className={className}>
       <p className="inline">{data.text.first + " "}</p>
       <Link
         href={data.href}

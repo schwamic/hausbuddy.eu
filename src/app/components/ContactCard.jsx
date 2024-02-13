@@ -2,9 +2,9 @@ import Image from "next/image";
 import Card from "@/app/components/Card";
 import ExternalLink from "@/app/components/ExternalLink";
 
-export default function ContactCard({ className = "", data }) {
+export default function ContactCard({ className = "", data, ...props }) {
   return (
-    <Card className={`bg-yellow-400 ${className}`}>
+    <Card {...props} className={`bg-yellow-400 ${className}`}>
       <div className="hidden w-32 min-w-32 md:w-44 md:min-w-44 sm:mr-4 md:mr-10 sm:block">
         <Image
           className="transform -scale-x-100 float-right"
@@ -20,6 +20,7 @@ export default function ContactCard({ className = "", data }) {
         <ExternalLink
           className="font-bold text-xl md:text-2xl"
           href={`mailto:${data.email.href}`}
+          showIcon={false}
         >
           {data.email.text}
         </ExternalLink>

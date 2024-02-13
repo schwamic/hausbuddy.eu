@@ -8,6 +8,7 @@ import {
   ContactCard,
   WikiCard,
   CommunityCard,
+  ExternalLink,
 } from "@/app/components";
 import { contact, wiki, community } from "@/content";
 
@@ -35,21 +36,33 @@ export default function Wiki() {
             content: "text-inherit font-semibold text-base pt-0 -mt-2.5 pb-4",
           }}
         >
-          {wiki.content.map((item, key, index) => (
+          {wiki.content.map((item, key) => (
             <AccordionItem
               key={key}
               aria-label={item.title}
               title={`${key + 1}. ${item.title}`}
             >
-              <div className="max-w-xl">{item.content.text}</div>
+              <div className="max-w-xl">
+                <p className="mb-2">{item.content.text}</p>
+                <ul className="list-inside list-disc">
+                  {item.content.links.map((link, key) => (
+                    <li key={key}>
+                      <ExternalLink className="inline" href={link.href}>
+                        {link.text}
+                      </ExternalLink>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </AccordionItem>
           ))}
         </Accordion>
       </section>
       <section className="mb-20 sm:mb-28">
-        <ContactCard className="w-full" data={contact} />
-        <div id="community" className="md:flex md:items-stretch">
+        <ContactCard id="contact" className="w-full" data={contact} />
+        <div className="md:flex md:items-stretch">
           <CommunityCard
+            id="community"
             className="w-full md:w-1/2 md:mr-4 mt-6 sm:mt-8"
             data={community}
           />

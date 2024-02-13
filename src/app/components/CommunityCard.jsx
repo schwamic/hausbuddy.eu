@@ -1,10 +1,9 @@
-import { ExternalLinkIcon } from "lucide-react";
 import ActionCard from "@/app/components/ActionCard";
 import ExternalLink from "@/app/components/ExternalLink";
 
-export default function CommunityCard({ className = "", data }) {
+export default function CommunityCard({ className = "", data, ...props }) {
   return (
-    <ActionCard image={data.image} className={className}>
+    <ActionCard {...props} image={data.image} className={className}>
       <p className="inline">{data.text + " "}</p>
       <ExternalLink
         href={data.link.href}
@@ -13,12 +12,6 @@ export default function CommunityCard({ className = "", data }) {
         {data.link.text}
       </ExternalLink>
       <p className="inline">.</p>
-      <ExternalLinkIcon
-        className="inline-block ml-1 mb-1"
-        color="white"
-        strokeWidth={2.5}
-        size={16}
-      />
     </ActionCard>
   );
 }
