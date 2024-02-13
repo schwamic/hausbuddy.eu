@@ -25,7 +25,7 @@ export default function Jumbotron({
               href={data.action.href}
               className={`shadow-lg shadow-gray-400 rounded-2xl py-4 px-6 cursor-pointer text-lg ${
                 buttonStyle === "yellow"
-                  ? "bg-yellow-400 text-blue-900"
+                  ? "bg-yellow-400"
                   : "bg-blue-900 text-white font-medium"
               }`}
             >
