@@ -1,10 +1,11 @@
 import { MetadataRoute } from "next";
+import { meta } from "@/content";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "hausbuddy",
-    short_name: "hausbuddy",
-    description: "Community für aktive Hausbewohner:innen",
+    name: meta.title,
+    short_name: meta.title,
+    description: meta.description,
     start_url: "/",
     display: "standalone",
     background_color: "#fff",

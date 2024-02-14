@@ -1,5 +1,6 @@
 import { Sora } from "next/font/google";
 import { Providers } from "./providers";
+import { meta } from "@/content";
 import "@/globals.css";
 
 const sora = Sora({
@@ -8,13 +9,11 @@ const sora = Sora({
 });
 
 export const metadata = {
-  title: "hausbuddy",
-  description:
-    "Community für aktive Hausbewohner:innen – Hier findest du alles was du zum Durchstarten als Hausmeister:in in deinem Wohnhaus brauchst.",
+  title: meta.title,
+  description: meta.description,
   openGraph: {
-    title: "hausbuddy",
-    description:
-      "Community für aktive Hausbewohner:innen – Hier findest du alles was du zum Durchstarten als Hausmeister:in in deinem Wohnhaus brauchst.",
+    title: meta.title,
+    description: meta.description,
     url: "https://hausbuddy.eu",
     siteName: "hausbuddy",
     images: [

@@ -5,25 +5,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: "https://haudbuddy.eu",
       lastModified: new Date(),
-      changeFrequency: "monthly",
+      changeFrequency: "weekly",
       priority: 1,
     },
     {
       url: "https://haudbuddy.eu/wiki",
       lastModified: new Date(),
-      changeFrequency: "monthly",
+      changeFrequency: "weekly",
       priority: 0.8,
     },
     {
       url: "https://haudbuddy.eu/privacy",
       lastModified: new Date(),
-      changeFrequency: "yearly",
+      changeFrequency: "monthly",
       priority: 0.5,
     },
     {
       url: "https://haudbuddy.eu/legal-notice",
       lastModified: new Date(),
-      changeFrequency: "yearly",
+      changeFrequency: "monthly",
       priority: 0.5,
     },
   ];
