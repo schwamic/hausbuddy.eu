@@ -42,15 +42,15 @@ export default function Index() {
           </div>
           <div className="order-3 md:order-2 w-100 md:w-6/12 mt-8 md:mt-0 md:pl-6">
             <h3 className="font-extrabold mb-1.5">{home.infos.why.title}</h3>
-            <p className="inline">{home.infos.why.text + " "}</p>
-            <Link href="/wiki" className="underline inline">
-              {home.infos.why.link}
+            <p className="inline">{home.infos.why.text} </p>
+            <Link href={home.infos.why.link.href} className="underline inline">
+              {home.infos.why.link.text}
             </Link>
             <p className="inline">.</p>
           </div>
           <div className="order-4 w-100 md:w-6/12 mt-8 md:pl-6">
             <h3 className="font-extrabold mb-1.5">{home.infos.tasks.title}</h3>
-            <p>{home.infos.tasks.text}</p>
+            <p className="inline">{home.infos.tasks.text} </p>
             <ExternalLink
               href={home.infos.tasks.link.href}
               className="inline text-nowrap"
