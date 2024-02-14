@@ -186,7 +186,7 @@ export default {
             Hausmeister:innen haben vielseitige Aufgaben. Wenn du mehr Wissen
             aufbaust, kannst du mehr Verantwortung übernehmen und bist somit
             auch berechtigt komplexere Aufgaben durchzuführen. Tolle
-            Weiterbildungen im handwerkliche Bereich bieten z.B. <i>TÜV SÜD</i>{" "}
+            Weiterbildungen im handwerklichen Bereich bieten z.B. <i>TÜV SÜD</i>{" "}
             und <i>DEKRA</i> an. Ebenfalls ist ein Erste-Hilfe-Kurs immer ganz
             hilfreich, den du z.B. bei der Hilfsorganisation <i>Johanniter</i>{" "}
             machen kannst.
