@@ -5,7 +5,7 @@ import {
   WikiCard,
   CommunityCard,
   ExternalLink,
-} from "@/app/components";
+} from "@/components";
 import { privacy, contact, wiki, community } from "@/content";
 
 export default function Privacy() {

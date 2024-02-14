@@ -1,5 +1,5 @@
-import ActionCard from "@/app/components/ActionCard";
-import ExternalLink from "@/app/components/ExternalLink";
+import ActionCard from "@/components/ActionCard";
+import ExternalLink from "@/components/ExternalLink";
 
 export default function CommunityCard({ className = "", data, ...props }) {
   return (

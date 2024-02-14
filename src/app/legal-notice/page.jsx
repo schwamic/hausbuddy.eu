@@ -5,7 +5,7 @@ import {
   WikiCard,
   CommunityCard,
   ExternalLink,
-} from "@/app/components";
+} from "@/components";
 import { legalNotice, contact, wiki, community } from "@/content";
 
 export default function LegalNotice() {

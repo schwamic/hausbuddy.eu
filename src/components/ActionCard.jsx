@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Card from "@/app/components/Card";
+import Card from "@/components/Card";
 
 export default function ActionCard({
   className = "",

@@ -9,7 +9,7 @@ import {
   WikiCard,
   CommunityCard,
   ExternalLink,
-} from "@/app/components";
+} from "@/components";
 import { contact, wiki, community } from "@/content";
 
 export default function Wiki() {

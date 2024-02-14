@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Card from "@/app/components/Card";
-import ExternalLink from "@/app/components/ExternalLink";
+import Card from "@/components/Card";
+import ExternalLink from "@/components/ExternalLink";
 
 export default function ContactCard({ className = "", data, ...props }) {
   return (

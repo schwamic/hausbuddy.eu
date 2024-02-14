@@ -7,7 +7,7 @@ import {
   Jumbotron,
   Logo,
   CommunityCard,
-} from "@/app/components";
+} from "@/components";
 import { home, contact, community, wiki } from "@/content";
 
 export default function Index() {

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import ActionCard from "@/app/components/ActionCard";
+import ActionCard from "@/components/ActionCard";
 
 export default function WikiCard({ className = "", data, ...props }) {
   return (

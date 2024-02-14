@@ -5,7 +5,7 @@ import {
   ContactCard,
   WikiCard,
   CommunityCard,
-} from "@/app/components";
+} from "@/components";
 import { contact, notFound, wiki, community } from "@/content";
 
 export default function NotFound() {
