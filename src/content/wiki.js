@@ -184,12 +184,17 @@ export default {
         text: (
           <>
             Hausmeister:innen haben vielseitige Aufgaben. Wenn du mehr Wissen
-            aufbaust, kannst du mehr Verantwortung übernehmen und bist somit
-            auch berechtigt komplexere Aufgaben durchzuführen. Tolle
-            Weiterbildungen im handwerklichen Bereich bieten z.B. <i>TÜV SÜD</i>{" "}
-            und <i>DEKRA</i> an. Ebenfalls ist ein Erste-Hilfe-Kurs immer ganz
-            hilfreich, den du z.B. bei der Hilfsorganisation <i>Johanniter</i>{" "}
-            machen kannst.
+            aufbaust kannst du mehr Verantwortung übernehmen und bist somit auch
+            berechtigt komplexere Aufgaben durchzuführen. Gerade auch
+            Arbeitssicherheit sollte nicht unterschätzt werden. Tolle
+            Weiterbildungen im handwerklichen Bereich (Haustechnik, Elektronik,
+            Pflege von Außenanlagen, etc.) bieten z.B. <i>TÜV SÜD</i>
+            {", "}
+            <i>DEKRA</i>
+            {", "}
+            <i>DEULA</i> und viele weitere Akademien an. Ebenfalls ist ein Erste
+            Hilfe Kurs immer ganz hilfreich, den du z.B. bei der
+            Hilfsorganisation <i>Johanniter</i> machen kannst.
           </>
         ),
         links: [
@@ -202,12 +207,24 @@ export default {
             href: "https://www.tuvsud.com/de-de/store/akademie/seminare-technik/gebaeudetechnik/haustechnik/4114001",
           },
           {
-            text: "DEKRA: Motorsägenschein",
-            href: "https://www.dekra-akademie.de/weiterbildung/motorsaegenschein",
+            text: "Bayerische Gartenakademie: Seminarprogramm",
+            href: "https://www.lwg.bayern.de/gartenakademie/121656/index.php",
           },
           {
-            text: "Johanniter: Erste-Hilfe-Kurs",
+            text: "DEULA: Pflege von Außenanlagen und Arbeitssicherheit",
+            href: "https://www.deula.de/standorte/deula-witzenhausen/lehrgaenge?singlev=730",
+          },
+          {
+            text: "DEKRA: Modul A Motorkettensägen bedienen",
+            href: "https://www.dekra-akademie.de/produkte/motorkettensaegen-bedienen-modul-a-grundlagen-nach-dguv-information-214-059",
+          },
+          {
+            text: "Johanniter: Erste Hilfe Kurs",
             href: "https://www.johanniter.de/dienste-leistungen/medizinische-hilfe/erste-hilfe/erste-hilfe-kurse-fuer-privatpersonen/",
+          },
+          {
+            text: "Akademie Herkert: Zertifizierte(r) Hausmeiter:in",
+            href: "https://www.akademie-herkert.de/themenuebersicht/kommunales/lehrgang-hausmeisterin",
           },
         ],
       },
