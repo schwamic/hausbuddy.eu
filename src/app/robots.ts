@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://hausbuddy.eu/sitemap.xml",
+    sitemap: "https://www.hausbuddy.eu/sitemap.xml",
   };
 }
