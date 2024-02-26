@@ -1,0 +1,11 @@
+.text-highlight {
+  display: inline;
+  padding: 0 0.1875rem;
+  border-radius: 0.35rem;
+  background-color: rgba(
+    var(--main-color-red-rgb),
+    var(--main-color-green-rgb),
+    var(--main-color-blue-rgb),
+    0.15
+  );
+}

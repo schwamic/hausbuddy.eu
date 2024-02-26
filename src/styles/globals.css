@@ -4,6 +4,9 @@
 
 :root {
   --main-color-hex: #295da6;
+  --main-color-red-rgb: 41;
+  --main-color-green-rgb: 93;
+  --main-color-blue-rgb: 166;
   --secondary-colol-hex: #ffc936;
   --background-hex: #ffffff;
 }
@@ -18,3 +21,5 @@ body {
     text-wrap: balance;
   }
 }
+
+@import "./typography.css";

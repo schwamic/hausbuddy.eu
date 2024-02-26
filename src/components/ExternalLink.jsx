@@ -12,7 +12,7 @@ export default function ExternalLink({
     <>
       <a
         {...props}
-        className={`underline cursor-pointer ${className}`}
+        className={`underline underline-offset-2 decoration-2 cursor-pointer ${className}`}
         rel="noopener noreferrer"
         target="_blank"
         href={href}

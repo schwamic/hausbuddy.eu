@@ -43,7 +43,10 @@ export default function Index() {
           <div className="order-3 md:order-2 w-100 md:w-6/12 mt-8 md:mt-0 md:pl-6">
             <h3 className="font-extrabold mb-1.5">{home.infos.why.title}</h3>
             <p className="inline">{home.infos.why.text} </p>
-            <Link href={home.infos.why.link.href} className="underline inline">
+            <Link
+              href={home.infos.why.link.href}
+              className="inline underline underline-offset-2 decoration-2"
+            >
               {home.infos.why.link.text}
             </Link>
             <p className="inline">.</p>

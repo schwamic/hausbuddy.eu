@@ -24,8 +24,12 @@ export default {
         selbst erledigt. Das ist heute nicht mehr der Fall, muss es ja auch
         nicht, für die Leute die jedoch in ihrem Wohnhaus selbst aktiv werden
         möchten gibt es hausbuddy. Denn Selbstverwaltung bringt viele Vorteile.
-        So kannst du dich z.B. für gemeinschafliche Flächen einsetzen und
-        nebenher etwas Geld verdienen.
+        So kannst du dich z.B.{" "}
+        <span class="text-highlight">
+          für gemeinschafliche Flächen einsetzen und nebenher etwas Geld
+          verdienen
+        </span>
+        .
       </>
     ),
     what: {
@@ -34,8 +38,12 @@ export default {
         <>
           Wir träumen von einem achtsamen und verantwortungsbewussten Umgang mit
           Wohnraum und unserer Meinung nach kann jede Person einen Beitrag dazu
-          leisten. hausbuddy unterstützt dich dabei nebenberuflich auf
-          Minijob-Basis als Hausmeister:in in deinem Wohnhaus durchzustarten.
+          leisten. hausbuddy unterstützt dich dabei{" "}
+          <span class="text-highlight">
+            nebenberuflich auf Minijob-Basis als Hausmeister:in in deinem
+            Wohnhaus durchzustarten
+          </span>
+          .
         </>
       ),
     },
@@ -43,11 +51,13 @@ export default {
       title: "Warum sollte ich Buddy werden?",
       text: (
         <>
-          Aller Anfang ist schwer, gerade als Einzelkämper:in. hausbuddy ist
-          deine Community rund um den Hausmeisterdienst. Hier bekommst du
-          Muster-Unterlagen, Wissen, Werkzeug, helfende Hände und kannst dich
-          mit allen anderen Buddies austauschen. Weitere Informationen findest
-          du im
+          Aller Anfang ist schwer, gerade als Einzelkämper:in. hausbuddy ist{" "}
+          <span class="text-highlight">
+            deine Community rund um den Hausmeisterdienst
+          </span>
+          . Hier bekommst du Muster-Unterlagen, Wissen, Werkzeug, helfende Hände
+          und kannst dich mit allen anderen Buddies austauschen. Weitere
+          Informationen findest du im
         </>
       ),
       link: {

@@ -7,7 +7,7 @@ export default function WikiCard({ className = "", data, ...props }) {
       <p className="inline">{data.text.first + " "}</p>
       <Link
         href={data.href}
-        className="inline underline font-bold cursor-pointer"
+        className="inline underline underline-offset-2 decoration-2 font-bold cursor-pointer"
       >
         {data.text.second}
       </Link>
