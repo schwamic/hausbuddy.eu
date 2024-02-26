@@ -177,13 +177,13 @@ export default {
             <span class="text-highlight">
               einfach in Kontakt treten können . Hierzu stellen wir dir einen
               Leitfaden und passende Unterlagen, wie z.B. einen Aushang im
-              Treppenhau
+              Treppenhaus
             </span>
-            s, als Download bereit. Ebenfalls kannst du dir ein hausbuddy
-            T-Shirt und Hoodie bestellen um für die hausbuddy Community zu
-            werben! Aktuell befindet sich das Angebot noch im Aufbau, schreibe
-            uns bei Interesse gerne eine E-Mail und/oder trete der Community bei
-            und stelle deine Fragen.
+            , als Download bereit. Ebenfalls kannst du dir ein hausbuddy T-Shirt
+            und Hoodie bestellen um für die hausbuddy Community zu werben!
+            Aktuell befindet sich das Angebot noch im Aufbau, schreibe uns bei
+            Interesse gerne eine E-Mail und/oder trete der Community bei und
+            stelle deine Fragen.
           </>
         ),
         links: [
