@@ -34,12 +34,13 @@ export default {
           <>
             Zum Austausch zwischen allen Buddies dient die{" "}
             <span className="text-highlight">Plattform Slack</span>. Um Teil der
-            Community bei Slack zu werden schreibe uns einfach eine kurze
-            E-Mail, dann schicken wir dir einen Einladungs-Link.{" "}
+            Community bei Slack zu werden{" "}
             <span className="text-highlight">
-              Aktuell gibt es die Kanäle Allgemein, Kleinanzeigen und Willkommen
-            </span>
-            . Wenn du einen Kanal öffnest findest du oben am Fenster eine kurze
+              schreibe uns einfach eine kurze E-Mail, dann schicken wir dir
+              einen Einladungs-Link.
+            </span>{" "}
+            Aktuell gibt es die Kanäle Allgemein, Kleinanzeigen und Willkommen .
+            Wenn du einen Kanal öffnest findest du oben am Fenster eine kurze
             Beschreibung. Versuche entsprechend deine Nachrichten thematisch in
             den passenden Kanal zu posten. Damit hausbuddy ein unterstützender
             Ort für alle Personen ist und bleibt, halten wir uns an die{" "}
