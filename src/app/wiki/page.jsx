@@ -22,8 +22,11 @@ export default function Wiki() {
         <Jumbotron
           data={wiki}
           buttonStyle="blue"
-          classBigImage="transform scale-90 lg:scale-100 -translate-y-4 lg:-translate-y-6"
-          classSmallImage="transform scale-115 translate-x-3 sm:translate-x-0 sm:-translate-y-12"
+          imageClasses={{
+            big: "transform scale-90 lg:scale-100 -translate-y-4 lg:-translate-y-6",
+            small:
+              "transform scale-115 translate-x-3 sm:translate-x-0 sm:-translate-y-12",
+          }}
         />
       </section>
       {/* WIKI */}

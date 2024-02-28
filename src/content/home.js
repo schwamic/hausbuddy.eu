@@ -25,7 +25,7 @@ export default {
         nicht, für die Leute die jedoch in ihrem Wohnhaus selbst aktiv werden
         möchten gibt es hausbuddy. Denn Selbstverwaltung bringt viele Vorteile.
         So kannst du dich z.B.{" "}
-        <span class="text-highlight">
+        <span className="text-highlight">
           für gemeinschafliche Flächen einsetzen und nebenher etwas Geld
           verdienen
         </span>
@@ -39,7 +39,7 @@ export default {
           Wir träumen von einem achtsamen und verantwortungsbewussten Umgang mit
           Wohnraum und unserer Meinung nach kann jede Person einen Beitrag dazu
           leisten. hausbuddy unterstützt dich dabei{" "}
-          <span class="text-highlight">
+          <span className="text-highlight">
             nebenberuflich auf Minijob-Basis als Hausmeister:in in deinem
             Wohnhaus durchzustarten
           </span>
@@ -52,7 +52,7 @@ export default {
       text: (
         <>
           Aller Anfang ist schwer, gerade als Einzelkämper:in. hausbuddy ist{" "}
-          <span class="text-highlight">
+          <span className="text-highlight">
             deine Community rund um den Hausmeisterdienst
           </span>
           . Hier bekommst du Muster-Unterlagen, Wissen, Werkzeug, helfende Hände

@@ -4,8 +4,7 @@ import Link from "next/link";
 export default function Jumbotron({
   data,
   className = "",
-  classBigImage = "",
-  classSmallImage = "",
+  imageClasses = { big: "", small: "" },
   buttonStyle = "yellow",
   showButton = true,
   ...props
@@ -36,14 +35,14 @@ export default function Jumbotron({
       </div>
       <div className="relative w-44 min-w-44 h-44 md:w-96 md:min-w-96 md:h-80 sm:ml-4 mb-6 sm:mb-0">
         <Image
-          className={`hidden md:block object-contain ${classBigImage}`}
+          className={`hidden md:block object-contain ${imageClasses.big}`}
           src={`/images/${data.image.big.src}`}
           alt={data.image.big.alt}
           fill={true}
           priority
         />
         <Image
-          className={`block md:hidden object-contain ${classSmallImage}`}
+          className={`block md:hidden object-contain ${imageClasses.small}`}
           src={`/images/${data.image.small.src}`}
           alt={data.image.small.alt}
           fill={true}

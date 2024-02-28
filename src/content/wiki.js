@@ -33,17 +33,17 @@ export default {
         text: (
           <>
             Zum Austausch zwischen allen Buddies dient die{" "}
-            <span class="text-highlight">Plattform Slack</span>. Um Teil der
+            <span className="text-highlight">Plattform Slack</span>. Um Teil der
             Community bei Slack zu werden schreibe uns einfach eine kurze
             E-Mail, dann schicken wir dir einen Einladungs-Link.{" "}
-            <span class="text-highlight">
+            <span className="text-highlight">
               Aktuell gibt es die Kanäle Allgemein, Kleinanzeigen und Willkommen
             </span>
             . Wenn du einen Kanal öffnest findest du oben am Fenster eine kurze
             Beschreibung. Versuche entsprechend deine Nachrichten thematisch in
             den passenden Kanal zu posten. Damit hausbuddy ein unterstützender
             Ort für alle Personen ist und bleibt, halten wir uns an die{" "}
-            <span class="text-highlight">
+            <span className="text-highlight">
               Community Richtlinien von Instagram (Meta)
             </span>
             . Bitte kontaktiere hausbuddy direkt per E-Mail bei Verletzungen der
@@ -71,14 +71,14 @@ export default {
             Hausmeister:in auf Minijob-Basis, da die Kosten gering bleiben und
             keine Lohnnebenkosten anfallen. Hierzu meldet der/die Vermieter:in
             einen gewerblichen Minijob an.{" "}
-            <span class="text-highlight">
+            <span className="text-highlight">
               {" "}
               Die Minijob-Zentrale bietet auf deren Webseite ausführliche
               Informationen
             </span>{" "}
             zu dem Thema an, stellt alle nötigen Formulare bereit und ist
             telefonisch für individuelle Fragen erreichbar. Allgemein ist die{" "}
-            <span class="text-highlight">
+            <span className="text-highlight">
               Anmeldung relativ unbürokratisch
             </span>{" "}
             und einfach durchzuführen.
@@ -102,13 +102,13 @@ export default {
         text: (
           <>
             Als Hausmeister:in hast du ein{" "}
-            <span class="text-highlight">
+            <span className="text-highlight">
               gewerbliches Minijob Arbeitsverhältnis . Was genau das bedeutet
               erklärt die Minijob-Zentrale auf deren Webseite
             </span>
             . Das ist ebenfalls die beste Quelle zu allen weiteren Themen wie
             z.B. Versicherungen, Steuern, Arbeitsrecht und -vertrag. Speziell{" "}
-            <span class="text-highlight">
+            <span className="text-highlight">
               im Hausmeisterdienst ist es ebenfalls sehr wichtig zu wissen,
               welche Tätigkeiten erlaubt sind
             </span>{" "}
@@ -174,7 +174,7 @@ export default {
             Als Hausmeister:in in deinem Wohnhaus hilft dir eine organisierte
             Außenkommunikation damit alle Hausbewohner:innen und dein(e)
             Vermieter:in mit dir{" "}
-            <span class="text-highlight">
+            <span className="text-highlight">
               einfach in Kontakt treten können . Hierzu stellen wir dir einen
               Leitfaden und passende Unterlagen, wie z.B. einen Aushang im
               Treppenhaus
@@ -207,13 +207,13 @@ export default {
             aufbaust kannst du mehr Verantwortung übernehmen und bist somit auch
             berechtigt komplexere Aufgaben durchzuführen. Gerade auch
             Arbeitssicherheit sollte nicht unterschätzt werden.{" "}
-            <span class="text-highlight">
+            <span className="text-highlight">
               Tolle Weiterbildungen im handwerklichen Bereich (Haustechnik,
               Elektronik, Pflege von Außenanlagen, etc.)
             </span>{" "}
             bieten z.B. TÜV SÜD, DEKRA, DEULA und viele weitere Akademien an.
             Ebenfalls ist ein{" "}
-            <span class="text-highlight">Erste Hilfe Kurs</span> immer ganz
+            <span className="text-highlight">Erste Hilfe Kurs</span> immer ganz
             hilfreich, den du z.B. bei der Hilfsorganisation Johanniter machen
             kannst.
           </>
