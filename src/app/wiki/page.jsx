@@ -21,7 +21,6 @@ export default function Wiki() {
       <section className="mb-24 md:mb-20 lg:mb-16">
         <Jumbotron
           data={wiki}
-          buttonStyle="blue"
           imageClasses={{
             big: "transform scale-90 lg:scale-100 -translate-y-4 lg:-translate-y-6",
             small:
@@ -62,12 +61,11 @@ export default function Wiki() {
         </Accordion>
       </section>
       <section className="mb-20 sm:mb-28">
-        <ContactCard id="contact" className="w-full" data={contact} />
+        <CommunityCard id="community" className="w-full" data={community} />
         <div className="md:flex md:items-stretch">
-          <CommunityCard
-            id="community"
+          <ContactCard
             className="w-full md:w-1/2 md:mr-4 mt-6 sm:mt-8"
-            data={community}
+            data={contact}
           />
           <WikiCard
             className="w-full md:w-1/2 md:ml-4 mt-6 sm:mt-8"

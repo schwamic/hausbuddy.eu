@@ -90,12 +90,12 @@ export default function Privacy() {
         </section>
       </div>
 
-      <section id="action" className="mb-20 sm:mb-28">
-        <ContactCard className="w-full" data={contact} />
+      <section className="mb-20 sm:mb-28">
+        <CommunityCard className="w-full" data={community} />
         <div className="md:flex md:items-stretch">
-          <CommunityCard
+          <ContactCard
             className="w-full md:w-1/2 md:mr-4 mt-6 sm:mt-8"
-            data={community}
+            data={contact}
           />
           <WikiCard
             className="w-full md:w-1/2 md:ml-4 mt-6 sm:mt-8"

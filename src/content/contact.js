@@ -1,15 +1,10 @@
 export default {
-  text: (
-    <>
-      Klingt interessant? Melde dich bei uns unter folgender E-Mail. Wir
-      versuchen generell innerhalb von 24 Stunden zu antworten.
-    </>
-  ),
+  text: "Erstmal Kontakt per E-Mail?",
   image: {
-    src: "3d-boy-handshake.png",
-    alt: "buddy offering a handshake",
+    src: "3d-mail.png",
+    alt: "mail",
   },
-  email: {
+  mail: {
     text: "hausbuddy@posteo.eu",
     href: "mailto:hausbuddy@posteo.eu",
   },

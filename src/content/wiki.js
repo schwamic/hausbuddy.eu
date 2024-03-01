@@ -22,28 +22,28 @@ export default {
     },
     href: "/wiki",
     image: {
-      src: "handbook-white.png",
+      src: "3d-book.png",
       alt: "handbook",
     },
   },
   content: [
     {
-      title: "Community bei Slack",
+      title: "Community bei WhatsApp",
       content: {
         text: (
           <>
-            Zum Austausch zwischen allen Buddies dient die{" "}
-            <span className="text-highlight">Plattform Slack</span>. Um Teil der
-            Community bei Slack zu werden{" "}
+            Zum Austausch zwischen allen Buddies dient die Plattform WhatsApp.{" "}
             <span className="text-highlight">
-              schreibe uns einfach eine kurze E-Mail, dann schicken wir dir
-              einen Einladungs-Link.
-            </span>{" "}
-            Aktuell gibt es die Kanäle Allgemein, Kleinanzeigen und Willkommen .
-            Wenn du einen Kanal öffnest findest du oben am Fenster eine kurze
-            Beschreibung. Versuche entsprechend deine Nachrichten thematisch in
-            den passenden Kanal zu posten. Damit hausbuddy ein unterstützender
-            Ort für alle Personen ist und bleibt, halten wir uns an die{" "}
+              Um Teil der Community bei WhatsApp zu werden folge dem
+              Einladungs-Link auf der Webseite oder schreibe uns eine kurze
+              E-Mail
+            </span>
+            . Aktuell gibt es die Kanäle Allgemein, Kleinanzeigen und
+            Willkommen. Wenn du eine Gruppe öffnest findest du in der
+            Gruppeninformation eine kurze Beschreibung. Versuche entsprechend
+            deine Nachrichten thematisch in die passende Gruppe zu posten. Damit
+            hausbuddy ein unterstützender Ort für alle Personen ist und bleibt,
+            halten wir uns an die{" "}
             <span className="text-highlight">
               Community Richtlinien von Instagram (Meta)
             </span>
@@ -53,8 +53,12 @@ export default {
         ),
         links: [
           {
-            text: "hausbuddy Community bei Slack",
-            href: "https://hausbuddy.slack.com",
+            text: "hausbuddy Community bei WhatsApp",
+            href: "https://chat.whatsapp.com/ISzrAt6uGHG4ZtwD2FBY8v",
+          },
+          {
+            text: "WhatsApp Community erklärt",
+            href: "https://faq.whatsapp.com/495856382464992",
           },
           {
             text: "Community-Richtlinien von Instagram",

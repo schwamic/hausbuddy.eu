@@ -14,7 +14,7 @@ export default function ActionCard({
     >
       <div className="hidden sm:block sm:mr-5">
         <Image
-          className="w-10 min-w-10 float-right"
+          className="w-12 min-w-12 float-right"
           src={`/images/${image.src}`}
           alt={image.alt}
           width={64}

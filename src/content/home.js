@@ -12,8 +12,8 @@ export default {
       },
     },
     action: {
-      text: "Buddy werden",
-      href: "#contact",
+      text: "Jetzt mitmachen",
+      href: "#community",
     },
   },
   infos: {

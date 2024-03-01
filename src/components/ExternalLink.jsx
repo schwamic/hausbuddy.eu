@@ -5,6 +5,7 @@ export default function ExternalLink({
   key,
   href,
   className = "",
+  iconClass = "scale-75",
   showIcon = true,
   ...props
 }) {
@@ -22,10 +23,10 @@ export default function ExternalLink({
       </a>
       {showIcon && (
         <ExternalLinkIcon
-          className="inline-block ml-1 mb-1"
+          className={`inline-block mb-1 ${iconClass}`}
           color="currentColor"
           strokeWidth={3}
-          size={16}
+          size={22}
         />
       )}
     </>
