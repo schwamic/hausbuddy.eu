@@ -14,4 +14,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## About
 
-Interested? Take a look at our website [hausbuddy.eu](https://hausbuddy.eu) and join the [community on Slack](https://hausbuddy.slack.com).
+Interested? Take a look at our website [hausbuddy.eu](https://hausbuddy.eu) and join the [community on WhatsApp](https://chat.whatsapp.com/ISzrAt6uGHG4ZtwD2FBY8v).

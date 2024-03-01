@@ -161,8 +161,8 @@ export default {
         ),
         links: [
           {
-            text: "hausbuddy Community bei Slack",
-            href: "https://hausbuddy.slack.com",
+            text: "hausbuddy Community bei WhatsApp",
+            href: "https://chat.whatsapp.com/ISzrAt6uGHG4ZtwD2FBY8v",
           },
           {
             text: "hausbuddy E-Mail Kontakt",
@@ -193,8 +193,8 @@ export default {
         ),
         links: [
           {
-            text: "hausbuddy Community bei Slack",
-            href: "https://hausbuddy.slack.com",
+            text: "hausbuddy Community bei WhatsApp",
+            href: "https://chat.whatsapp.com/ISzrAt6uGHG4ZtwD2FBY8v",
           },
           {
             text: "hausbuddy E-Mail Kontakt",
