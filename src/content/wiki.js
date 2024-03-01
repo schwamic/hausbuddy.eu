@@ -38,12 +38,12 @@ export default {
               Einladungs-Link auf der Webseite oder schreibe uns eine kurze
               E-Mail
             </span>
-            . Aktuell gibt es die Kanäle Allgemein, Kleinanzeigen und
-            Willkommen. Wenn du eine Gruppe öffnest findest du in der
-            Gruppeninformation eine kurze Beschreibung. Versuche entsprechend
-            deine Nachrichten thematisch in die passende Gruppe zu posten. Damit
-            hausbuddy ein unterstützender Ort für alle Personen ist und bleibt,
-            halten wir uns an die{" "}
+            . Aktuell gibt es die Kanäle Allgemein, Tauschbörse und Willkommen.
+            Wenn du eine Gruppe öffnest findest du in der Gruppeninformation
+            eine kurze Beschreibung. Versuche entsprechend deine Nachrichten
+            thematisch in die passende Gruppe zu posten. Damit hausbuddy ein
+            unterstützender Ort für alle Personen ist und bleibt, halten wir uns
+            an die{" "}
             <span className="text-highlight">
               Community Richtlinien von Instagram (Meta)
             </span>
